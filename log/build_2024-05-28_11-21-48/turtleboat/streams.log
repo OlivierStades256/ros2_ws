@@ -1,0 +1,23 @@
+[1.831s] Invoking command in '/home/olivier/ros2_ws/src/TurtleBoat-ros2': PYTHONPATH=/home/olivier/ros2_ws/build/turtleboat/prefix_override:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtleboat build --build-base /home/olivier/ros2_ws/build/turtleboat/build install --record /home/olivier/ros2_ws/build/turtleboat/install.log --install-scripts $base/lib/turtleboat --single-version-externally-managed install_data
+[2.317s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.317s]   warnings.warn(
+[2.332s] running egg_info
+[2.332s] writing ../../build/turtleboat/turtleboat.egg-info/PKG-INFO
+[2.333s] writing dependency_links to ../../build/turtleboat/turtleboat.egg-info/dependency_links.txt
+[2.334s] writing entry points to ../../build/turtleboat/turtleboat.egg-info/entry_points.txt
+[2.335s] writing requirements to ../../build/turtleboat/turtleboat.egg-info/requires.txt
+[2.336s] writing top-level names to ../../build/turtleboat/turtleboat.egg-info/top_level.txt
+[2.340s] reading manifest file '../../build/turtleboat/turtleboat.egg-info/SOURCES.txt'
+[2.346s] writing manifest file '../../build/turtleboat/turtleboat.egg-info/SOURCES.txt'
+[2.347s] running build
+[2.348s] running build_py
+[2.348s] running install
+[2.352s] running install_lib
+[2.353s] running install_data
+[2.354s] running install_egg_info
+[2.356s] removing '/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages/turtleboat-0.0.0-py3.10.egg-info' (and everything under it)
+[2.356s] Copying ../../build/turtleboat/turtleboat.egg-info to /home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages/turtleboat-0.0.0-py3.10.egg-info
+[2.356s] running install_scripts
+[2.391s] Installing turtleboatmain script to /home/olivier/ros2_ws/install/turtleboat/lib/turtleboat
+[2.392s] writing list of installed files to '/home/olivier/ros2_ws/build/turtleboat/install.log'
+[2.437s] Invoked command in '/home/olivier/ros2_ws/src/TurtleBoat-ros2' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/turtleboat/prefix_override:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtleboat build --build-base /home/olivier/ros2_ws/build/turtleboat/build install --record /home/olivier/ros2_ws/build/turtleboat/install.log --install-scripts $base/lib/turtleboat --single-version-externally-managed install_data

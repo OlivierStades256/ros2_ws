@@ -1,0 +1,23 @@
+[2.639s] Invoking command in '/home/olivier/ros2_ws/src/USV_formation_control_1-ros2': PYTHONPATH=/home/olivier/ros2_ws/build/usv_formation_control_1/prefix_override:/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/usv_formation_control_1 build --build-base /home/olivier/ros2_ws/build/usv_formation_control_1/build install --record /home/olivier/ros2_ws/build/usv_formation_control_1/install.log --single-version-externally-managed install_data
+[3.488s] running egg_info
+[3.492s] writing ../../build/usv_formation_control_1/usv_formation_control_1.egg-info/PKG-INFO
+[3.493s] writing dependency_links to ../../build/usv_formation_control_1/usv_formation_control_1.egg-info/dependency_links.txt
+[3.495s] writing entry points to ../../build/usv_formation_control_1/usv_formation_control_1.egg-info/entry_points.txt
+[3.496s] writing requirements to ../../build/usv_formation_control_1/usv_formation_control_1.egg-info/requires.txt
+[3.500s] writing top-level names to ../../build/usv_formation_control_1/usv_formation_control_1.egg-info/top_level.txt
+[3.523s] reading manifest file '../../build/usv_formation_control_1/usv_formation_control_1.egg-info/SOURCES.txt'
+[3.525s] writing manifest file '../../build/usv_formation_control_1/usv_formation_control_1.egg-info/SOURCES.txt'
+[3.527s] running build
+[3.527s] running build_py
+[3.527s] running install
+[3.527s] running install_lib
+[3.530s] running install_data
+[3.531s] running install_egg_info
+[3.533s] removing '/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages/usv_formation_control_1-0.0.0-py3.10.egg-info' (and everything under it)
+[3.536s] Copying ../../build/usv_formation_control_1/usv_formation_control_1.egg-info to /home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages/usv_formation_control_1-0.0.0-py3.10.egg-info
+[3.539s] running install_scripts
+[3.584s] Installing formation_configuration_broadcaster_1 script to /home/olivier/ros2_ws/install/usv_formation_control_1/lib/usv_formation_control_1
+[3.585s] Installing formation_trajectory_planner script to /home/olivier/ros2_ws/install/usv_formation_control_1/lib/usv_formation_control_1
+[3.585s] Installing vessel_reference_generator script to /home/olivier/ros2_ws/install/usv_formation_control_1/lib/usv_formation_control_1
+[3.586s] writing list of installed files to '/home/olivier/ros2_ws/build/usv_formation_control_1/install.log'
+[3.642s] Invoked command in '/home/olivier/ros2_ws/src/USV_formation_control_1-ros2' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/usv_formation_control_1/prefix_override:/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/usv_formation_control_1 build --build-base /home/olivier/ros2_ws/build/usv_formation_control_1/build install --record /home/olivier/ros2_ws/build/usv_formation_control_1/install.log --single-version-externally-managed install_data

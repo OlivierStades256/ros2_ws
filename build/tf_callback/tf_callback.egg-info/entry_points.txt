@@ -1,0 +1,3 @@
+[console_scripts]
+tf_callback_code = tf_callback.tf_callback_code:main
+

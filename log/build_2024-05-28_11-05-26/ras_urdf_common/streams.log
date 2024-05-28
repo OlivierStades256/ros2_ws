@@ -1,0 +1,53 @@
+[1.328s] Invoking command in '/home/olivier/ros2_ws/build/ras_urdf_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/tf_callback:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/joystick_control_ras:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/tf_callback:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/joystick_control_ras:/home/olivier/install/boat_controller:/opt/ros/iron /usr/bin/cmake --build /home/olivier/ros2_ws/build/ras_urdf_common -- -j4 -l4
+[1.582s] Built target ament_cmake_python_copy_ras_urdf_common
+[3.049s] running egg_info
+[3.059s] writing ras_urdf_common.egg-info/PKG-INFO
+[3.059s] writing dependency_links to ras_urdf_common.egg-info/dependency_links.txt
+[3.067s] writing top-level names to ras_urdf_common.egg-info/top_level.txt
+[3.069s] reading manifest file 'ras_urdf_common.egg-info/SOURCES.txt'
+[3.069s] writing manifest file 'ras_urdf_common.egg-info/SOURCES.txt'
+[3.216s] Built target ament_cmake_python_build_ras_urdf_common_egg
+[3.274s] Invoked command in '/home/olivier/ros2_ws/build/ras_urdf_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/tf_callback:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/joystick_control_ras:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/tf_callback:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/joystick_control_ras:/home/olivier/install/boat_controller:/opt/ros/iron /usr/bin/cmake --build /home/olivier/ros2_ws/build/ras_urdf_common -- -j4 -l4
+[4.016s] Invoking command in '/home/olivier/ros2_ws/build/ras_urdf_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/tf_callback:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/joystick_control_ras:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/tf_callback:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/joystick_control_ras:/home/olivier/install/boat_controller:/opt/ros/iron /usr/bin/cmake --install /home/olivier/ros2_ws/build/ras_urdf_common
+[4.040s] -- Install configuration: ""
+[4.040s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/launch
+[4.041s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/launch/rviz_bringup.launch.py
+[4.041s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/meshes
+[4.041s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/meshes/TN_propeller1.stl
+[4.041s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/meshes/TN_collisionMesh1.stl
+[4.041s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/meshes/TN_hull_BB_1.stl
+[4.041s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/rviz
+[4.041s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/rviz/urdf.rviz
+[4.041s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/urdf
+[4.041s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/urdf/titoneri.urdf.xacro
+[4.042s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/ras_urdf_common
+[4.042s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/ras_urdf_common/__init__.py
+[4.042s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/scripts
+[4.042s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/scripts/azi_joint_state_broadcaster.py
+[4.042s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/pythonpath.sh
+[4.042s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/pythonpath.dsv
+[4.042s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common-0.0.0-py3.10.egg-info
+[4.042s] -- Installing: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.043s] -- Installing: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.043s] -- Installing: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common-0.0.0-py3.10.egg-info/top_level.txt
+[4.043s] -- Installing: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common-0.0.0-py3.10.egg-info/PKG-INFO
+[4.043s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common
+[4.043s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common/__init__.py
+[4.103s] Listing '/home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common'...
+[4.121s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/lib/ras_urdf_common/azi_joint_state_broadcaster.py
+[4.121s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ament_index/resource_index/package_run_dependencies/ras_urdf_common
+[4.121s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ament_index/resource_index/parent_prefix_path/ras_urdf_common
+[4.121s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/ament_prefix_path.sh
+[4.122s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/ament_prefix_path.dsv
+[4.122s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/path.sh
+[4.122s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/path.dsv
+[4.122s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/local_setup.bash
+[4.122s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/local_setup.sh
+[4.122s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/local_setup.zsh
+[4.122s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/local_setup.dsv
+[4.122s] -- Installing: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.dsv
+[4.122s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ament_index/resource_index/packages/ras_urdf_common
+[4.123s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/cmake/ras_urdf_commonConfig.cmake
+[4.123s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/cmake/ras_urdf_commonConfig-version.cmake
+[4.123s] -- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.xml
+[5.281s] Invoked command in '/home/olivier/ros2_ws/build/ras_urdf_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/tf_callback:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/joystick_control_ras:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/tf_callback:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/joystick_control_ras:/home/olivier/install/boat_controller:/opt/ros/iron /usr/bin/cmake --install /home/olivier/ros2_ws/build/ras_urdf_common

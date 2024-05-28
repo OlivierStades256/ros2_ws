@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/joystick_control_ras/joystick_control_ras.egg-info
+writing ../../build/joystick_control_ras/joystick_control_ras.egg-info/PKG-INFO
+writing dependency_links to ../../build/joystick_control_ras/joystick_control_ras.egg-info/dependency_links.txt
+writing entry points to ../../build/joystick_control_ras/joystick_control_ras.egg-info/entry_points.txt
+writing requirements to ../../build/joystick_control_ras/joystick_control_ras.egg-info/requires.txt
+writing top-level names to ../../build/joystick_control_ras/joystick_control_ras.egg-info/top_level.txt
+writing manifest file '../../build/joystick_control_ras/joystick_control_ras.egg-info/SOURCES.txt'
+reading manifest file '../../build/joystick_control_ras/joystick_control_ras.egg-info/SOURCES.txt'
+writing manifest file '../../build/joystick_control_ras/joystick_control_ras.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/olivier/ros2_ws/build/joystick_control_ras/build
+creating /home/olivier/ros2_ws/build/joystick_control_ras/build/lib
+creating /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+copying joystick_control_ras/allocation_functions.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+copying joystick_control_ras/__init__.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+copying joystick_control_ras/polytest.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+copying joystick_control_ras/imagetest.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+copying joystick_control_ras/broadcastGUI.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+copying joystick_control_ras/plot_tools.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+running install
+running install_lib
+creating /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/allocation_functions.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/__init__.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/polytest.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/imagetest.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/broadcastGUI.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/plot_tools.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/allocation_functions.py to allocation_functions.cpython-310.pyc
+byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/polytest.py to polytest.cpython-310.pyc
+byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/imagetest.py to imagetest.cpython-310.pyc
+byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/broadcastGUI.py to broadcastGUI.cpython-310.pyc
+byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/plot_tools.py to plot_tools.cpython-310.pyc
+running install_data
+creating /home/olivier/ros2_ws/install/joystick_control_ras/share/ament_index
+creating /home/olivier/ros2_ws/install/joystick_control_ras/share/ament_index/resource_index
+creating /home/olivier/ros2_ws/install/joystick_control_ras/share/ament_index/resource_index/packages
+copying resource/joystick_control_ras -> /home/olivier/ros2_ws/install/joystick_control_ras/share/ament_index/resource_index/packages
+copying package.xml -> /home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras
+creating /home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/joystick_control_ras
+copying raslogo1.png -> /home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/joystick_control_ras

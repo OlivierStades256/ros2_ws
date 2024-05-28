@@ -1,0 +1,3 @@
+[console_scripts]
+joystickgui = joystick_control_ras.broadcastGUI:main
+

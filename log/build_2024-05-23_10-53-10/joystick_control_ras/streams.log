@@ -1,0 +1,16 @@
+[1.610s] Invoking command in '/home/olivier/ros2_ws/src/ras_joystick_control-iron': PYTHONPATH=/home/olivier/ros2_ws/build/joystick_control_ras/prefix_override:/home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_control_ras build --build-base /home/olivier/ros2_ws/build/joystick_control_ras/build install --record /home/olivier/ros2_ws/build/joystick_control_ras/install.log --single-version-externally-managed install_data
+[2.035s] running egg_info
+[2.037s] writing ../../build/joystick_control_ras/joystick_control_ras.egg-info/PKG-INFO
+[2.037s] writing dependency_links to ../../build/joystick_control_ras/joystick_control_ras.egg-info/dependency_links.txt
+[2.037s] writing entry points to ../../build/joystick_control_ras/joystick_control_ras.egg-info/entry_points.txt
+[2.037s] writing requirements to ../../build/joystick_control_ras/joystick_control_ras.egg-info/requires.txt
+[2.037s] writing top-level names to ../../build/joystick_control_ras/joystick_control_ras.egg-info/top_level.txt
+[2.040s] reading manifest file '../../build/joystick_control_ras/joystick_control_ras.egg-info/SOURCES.txt'
+[2.042s] writing manifest file '../../build/joystick_control_ras/joystick_control_ras.egg-info/SOURCES.txt'
+[2.042s] running build
+[2.042s] running build_py
+[2.043s] running install
+[2.044s] running install_lib
+[2.047s] running install_data
+[2.047s] error: can't copy 'joystick_icon.png': doesn't exist or not a regular file
+[2.080s] Invoked command in '/home/olivier/ros2_ws/src/ras_joystick_control-iron' returned '1': PYTHONPATH=/home/olivier/ros2_ws/build/joystick_control_ras/prefix_override:/home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_control_ras build --build-base /home/olivier/ros2_ws/build/joystick_control_ras/build install --record /home/olivier/ros2_ws/build/joystick_control_ras/install.log --single-version-externally-managed install_data

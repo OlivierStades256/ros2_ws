@@ -1,0 +1,47 @@
+[1.709s] Invoking command in '/home/olivier/ros2_ws/src/ras_joystick_control-iron': PYTHONPATH=/home/olivier/ros2_ws/build/joystick_control_ras/prefix_override:/home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_control_ras build --build-base /home/olivier/ros2_ws/build/joystick_control_ras/build install --record /home/olivier/ros2_ws/build/joystick_control_ras/install.log --single-version-externally-managed install_data
+[2.127s] running egg_info
+[2.128s] creating ../../build/joystick_control_ras/joystick_control_ras.egg-info
+[2.129s] writing ../../build/joystick_control_ras/joystick_control_ras.egg-info/PKG-INFO
+[2.129s] writing dependency_links to ../../build/joystick_control_ras/joystick_control_ras.egg-info/dependency_links.txt
+[2.129s] writing entry points to ../../build/joystick_control_ras/joystick_control_ras.egg-info/entry_points.txt
+[2.130s] writing requirements to ../../build/joystick_control_ras/joystick_control_ras.egg-info/requires.txt
+[2.130s] writing top-level names to ../../build/joystick_control_ras/joystick_control_ras.egg-info/top_level.txt
+[2.130s] writing manifest file '../../build/joystick_control_ras/joystick_control_ras.egg-info/SOURCES.txt'
+[2.133s] reading manifest file '../../build/joystick_control_ras/joystick_control_ras.egg-info/SOURCES.txt'
+[2.135s] writing manifest file '../../build/joystick_control_ras/joystick_control_ras.egg-info/SOURCES.txt'
+[2.135s] running build
+[2.135s] running build_py
+[2.136s] creating /home/olivier/ros2_ws/build/joystick_control_ras/build
+[2.136s] creating /home/olivier/ros2_ws/build/joystick_control_ras/build/lib
+[2.136s] creating /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+[2.136s] copying joystick_control_ras/allocation_functions.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+[2.136s] copying joystick_control_ras/__init__.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+[2.136s] copying joystick_control_ras/polytest.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+[2.136s] copying joystick_control_ras/imagetest.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+[2.137s] copying joystick_control_ras/broadcastGUI.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+[2.137s] copying joystick_control_ras/plot_tools.py -> /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras
+[2.137s] running install
+[2.138s] running install_lib
+[2.139s] creating /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+[2.139s] copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/allocation_functions.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+[2.139s] copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/__init__.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+[2.139s] copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/polytest.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+[2.139s] copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/imagetest.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+[2.140s] copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/broadcastGUI.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+[2.140s] copying /home/olivier/ros2_ws/build/joystick_control_ras/build/lib/joystick_control_ras/plot_tools.py -> /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras
+[2.141s] byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/allocation_functions.py to allocation_functions.cpython-310.pyc
+[2.141s] byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/__init__.py to __init__.cpython-310.pyc
+[2.142s] byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/polytest.py to polytest.cpython-310.pyc
+[2.142s] byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/imagetest.py to imagetest.cpython-310.pyc
+[2.143s] byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/broadcastGUI.py to broadcastGUI.cpython-310.pyc
+[2.149s] byte-compiling /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras/plot_tools.py to plot_tools.cpython-310.pyc
+[2.151s] running install_data
+[2.151s] creating /home/olivier/ros2_ws/install/joystick_control_ras/share/ament_index
+[2.151s] creating /home/olivier/ros2_ws/install/joystick_control_ras/share/ament_index/resource_index
+[2.151s] creating /home/olivier/ros2_ws/install/joystick_control_ras/share/ament_index/resource_index/packages
+[2.152s] copying resource/joystick_control_ras -> /home/olivier/ros2_ws/install/joystick_control_ras/share/ament_index/resource_index/packages
+[2.152s] copying package.xml -> /home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras
+[2.152s] creating /home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/joystick_control_ras
+[2.152s] copying raslogo1.png -> /home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/joystick_control_ras
+[2.153s] error: can't copy 'joystick_icon.png': doesn't exist or not a regular file
+[2.184s] Invoked command in '/home/olivier/ros2_ws/src/ras_joystick_control-iron' returned '1': PYTHONPATH=/home/olivier/ros2_ws/build/joystick_control_ras/prefix_override:/home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_control_ras build --build-base /home/olivier/ros2_ws/build/joystick_control_ras/build install --record /home/olivier/ros2_ws/build/joystick_control_ras/install.log --single-version-externally-managed install_data

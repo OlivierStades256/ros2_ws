@@ -1,0 +1,21 @@
+[1.530s] Invoking command in '/home/olivier/ros2_ws/src/tf_callback': PYTHONPATH=/home/olivier/ros2_ws/build/tf_callback/prefix_override:/home/olivier/ros2_ws/install/tf_callback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_callback build --build-base /home/olivier/ros2_ws/build/tf_callback/build install --record /home/olivier/ros2_ws/build/tf_callback/install.log --single-version-externally-managed install_data
+[2.007s] running egg_info
+[2.007s] writing ../../build/tf_callback/tf_callback.egg-info/PKG-INFO
+[2.007s] writing dependency_links to ../../build/tf_callback/tf_callback.egg-info/dependency_links.txt
+[2.008s] writing entry points to ../../build/tf_callback/tf_callback.egg-info/entry_points.txt
+[2.008s] writing requirements to ../../build/tf_callback/tf_callback.egg-info/requires.txt
+[2.008s] writing top-level names to ../../build/tf_callback/tf_callback.egg-info/top_level.txt
+[2.013s] reading manifest file '../../build/tf_callback/tf_callback.egg-info/SOURCES.txt'
+[2.013s] writing manifest file '../../build/tf_callback/tf_callback.egg-info/SOURCES.txt'
+[2.014s] running build
+[2.014s] running build_py
+[2.017s] running install
+[2.017s] running install_lib
+[2.018s] running install_data
+[2.018s] running install_egg_info
+[2.026s] removing '/home/olivier/ros2_ws/install/tf_callback/lib/python3.10/site-packages/tf_callback-0.0.0-py3.10.egg-info' (and everything under it)
+[2.027s] Copying ../../build/tf_callback/tf_callback.egg-info to /home/olivier/ros2_ws/install/tf_callback/lib/python3.10/site-packages/tf_callback-0.0.0-py3.10.egg-info
+[2.030s] running install_scripts
+[2.076s] Installing tf_callback_code script to /home/olivier/ros2_ws/install/tf_callback/lib/tf_callback
+[2.077s] writing list of installed files to '/home/olivier/ros2_ws/build/tf_callback/install.log'
+[2.124s] Invoked command in '/home/olivier/ros2_ws/src/tf_callback' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/tf_callback/prefix_override:/home/olivier/ros2_ws/install/tf_callback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_callback build --build-base /home/olivier/ros2_ws/build/tf_callback/build install --record /home/olivier/ros2_ws/build/tf_callback/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+ras_ros_core_control_modules/control_effort_allocation
+ras_ros_core_control_modules/motion_control
+ras_ros_core_control_modules/sensor_processing
+ras_ros_core_control_modules/tools

@@ -1,0 +1,3 @@
+[console_scripts]
+boat_controllermain = boat_controller.boat_controllermain:main
+

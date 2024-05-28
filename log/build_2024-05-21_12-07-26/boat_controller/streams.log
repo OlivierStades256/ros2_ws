@@ -1,0 +1,20 @@
+[1.404s] Invoking command in '/home/olivier/ros2_ws/src/boat_controller': PYTHONPATH=/home/olivier/ros2_ws/build/boat_controller/prefix_override:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/boat_controller build --build-base /home/olivier/ros2_ws/build/boat_controller/build install --record /home/olivier/ros2_ws/build/boat_controller/install.log --single-version-externally-managed install_data
+[1.826s] running egg_info
+[1.827s] writing ../../build/boat_controller/boat_controller.egg-info/PKG-INFO
+[1.828s] writing dependency_links to ../../build/boat_controller/boat_controller.egg-info/dependency_links.txt
+[1.829s] writing entry points to ../../build/boat_controller/boat_controller.egg-info/entry_points.txt
+[1.831s] writing requirements to ../../build/boat_controller/boat_controller.egg-info/requires.txt
+[1.832s] writing top-level names to ../../build/boat_controller/boat_controller.egg-info/top_level.txt
+[1.838s] reading manifest file '../../build/boat_controller/boat_controller.egg-info/SOURCES.txt'
+[1.840s] writing manifest file '../../build/boat_controller/boat_controller.egg-info/SOURCES.txt'
+[1.842s] running build
+[1.842s] running build_py
+[1.843s] running install
+[1.844s] running install_lib
+[1.845s] running install_data
+[1.846s] running install_egg_info
+[1.851s] removing '/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages/boat_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.852s] Copying ../../build/boat_controller/boat_controller.egg-info to /home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages/boat_controller-0.0.0-py3.10.egg-info
+[1.862s] running install_scripts
+[1.898s] writing list of installed files to '/home/olivier/ros2_ws/build/boat_controller/install.log'
+[2.115s] Invoked command in '/home/olivier/ros2_ws/src/boat_controller' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/boat_controller/prefix_override:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/boat_controller build --build-base /home/olivier/ros2_ws/build/boat_controller/build install --record /home/olivier/ros2_ws/build/boat_controller/install.log --single-version-externally-managed install_data

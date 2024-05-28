@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 4.1.5 (/opt/ros/iron/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/olivier/ros2_ws/build/ras_urdf_common
+Built target ament_cmake_python_copy_ras_urdf_common
+running egg_info
+creating ras_urdf_common.egg-info
+writing ras_urdf_common.egg-info/PKG-INFO
+writing dependency_links to ras_urdf_common.egg-info/dependency_links.txt
+writing top-level names to ras_urdf_common.egg-info/top_level.txt
+writing manifest file 'ras_urdf_common.egg-info/SOURCES.txt'
+reading manifest file 'ras_urdf_common.egg-info/SOURCES.txt'
+writing manifest file 'ras_urdf_common.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ras_urdf_common_egg
+-- Install configuration: ""
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/olivier/ros2_ws/src/ras_urdf_common-main/images": No such file or
+  directory.
+
+[0m

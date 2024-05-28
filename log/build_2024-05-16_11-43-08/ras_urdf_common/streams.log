@@ -1,0 +1,51 @@
+[0.552s] Invoking command in '/home/olivier/ros2_ws/build/ras_urdf_common': CMAKE_PREFIX_PATH=/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake /home/olivier/ros2_ws/src/ras_urdf_common-main -DCMAKE_INSTALL_PREFIX=/home/olivier/ros2_ws/install/ras_urdf_common
+[0.663s] -- The C compiler identification is GNU 11.4.0
+[0.758s] -- The CXX compiler identification is GNU 11.4.0
+[0.773s] -- Detecting C compiler ABI info
+[0.864s] -- Detecting C compiler ABI info - done
+[0.879s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.880s] -- Detecting C compile features
+[0.882s] -- Detecting C compile features - done
+[0.888s] -- Detecting CXX compiler ABI info
+[1.012s] -- Detecting CXX compiler ABI info - done
+[1.028s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.028s] -- Detecting CXX compile features
+[1.029s] -- Detecting CXX compile features - done
+[1.039s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.311s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.488s] -- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+[1.585s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.611s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.992s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.997s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.124s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.178s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.247s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.614s] -- Found rclpy: 4.1.5 (/opt/ros/iron/share/rclpy/cmake)
+[2.777s] -- Configuring done
+[2.786s] -- Generating done
+[2.788s] -- Build files have been written to: /home/olivier/ros2_ws/build/ras_urdf_common
+[2.799s] Invoked command in '/home/olivier/ros2_ws/build/ras_urdf_common' returned '0': CMAKE_PREFIX_PATH=/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake /home/olivier/ros2_ws/src/ras_urdf_common-main -DCMAKE_INSTALL_PREFIX=/home/olivier/ros2_ws/install/ras_urdf_common
+[2.802s] Invoking command in '/home/olivier/ros2_ws/build/ras_urdf_common': CMAKE_PREFIX_PATH=/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/olivier/ros2_ws/build/ras_urdf_common -- -j4 -l4
+[2.858s] Built target ament_cmake_python_copy_ras_urdf_common
+[3.098s] running egg_info
+[3.099s] creating ras_urdf_common.egg-info
+[3.099s] writing ras_urdf_common.egg-info/PKG-INFO
+[3.099s] writing dependency_links to ras_urdf_common.egg-info/dependency_links.txt
+[3.099s] writing top-level names to ras_urdf_common.egg-info/top_level.txt
+[3.099s] writing manifest file 'ras_urdf_common.egg-info/SOURCES.txt'
+[3.101s] reading manifest file 'ras_urdf_common.egg-info/SOURCES.txt'
+[3.102s] writing manifest file 'ras_urdf_common.egg-info/SOURCES.txt'
+[3.130s] Built target ament_cmake_python_build_ras_urdf_common_egg
+[3.142s] Invoked command in '/home/olivier/ros2_ws/build/ras_urdf_common' returned '0': CMAKE_PREFIX_PATH=/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/olivier/ros2_ws/build/ras_urdf_common -- -j4 -l4
+[3.174s] Invoking command in '/home/olivier/ros2_ws/build/ras_urdf_common': CMAKE_PREFIX_PATH=/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/olivier/ros2_ws/build/ras_urdf_common
+[3.182s] -- Install configuration: ""
+[3.182s] [31mCMake Error at cmake_install.cmake:46 (file):
+[3.182s]   file INSTALL cannot find
+[3.182s]   "/home/olivier/ros2_ws/src/ras_urdf_common-main/images": No such file or
+[3.182s]   directory.
+[3.182s] 
+[3.182s] [0m
+[3.183s] Invoked command in '/home/olivier/ros2_ws/build/ras_urdf_common' returned '1': CMAKE_PREFIX_PATH=/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/olivier/ros2_ws/build/ras_urdf_common

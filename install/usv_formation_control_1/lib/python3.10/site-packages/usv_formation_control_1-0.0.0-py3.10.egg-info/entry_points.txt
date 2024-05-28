@@ -1,0 +1,5 @@
+[console_scripts]
+formation_configuration_broadcaster_1 = usv_formation_control_1.formation_configuration_broadcaster_1:main
+formation_trajectory_planner = usv_formation_control_1.formation_trajectory_planner:main
+vessel_reference_generator = usv_formation_control_1.vessel_reference_generator:main
+

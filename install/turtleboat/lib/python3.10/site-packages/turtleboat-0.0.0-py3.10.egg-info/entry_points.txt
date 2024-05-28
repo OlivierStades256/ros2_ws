@@ -1,0 +1,3 @@
+[console_scripts]
+turtleboatmain = turtleboat.turtleboatmain:main
+

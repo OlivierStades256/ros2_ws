@@ -1,0 +1,6 @@
+source;share/joystick_control_ras/hook/pythonpath.ps1
+source;share/joystick_control_ras/hook/pythonpath.dsv
+source;share/joystick_control_ras/hook/pythonpath.sh
+source;share/joystick_control_ras/hook/ament_prefix_path.ps1
+source;share/joystick_control_ras/hook/ament_prefix_path.dsv
+source;share/joystick_control_ras/hook/ament_prefix_path.sh

@@ -1,0 +1,78 @@
+[1.464s] Invoking command in '/home/olivier/ros2_ws/src/ras_ros_core_control_modules-main': PYTHONPATH=/home/olivier/ros2_ws/build/ras_ros_core_control_modules/prefix_override:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ras_ros_core_control_modules build --build-base /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build install --record /home/olivier/ros2_ws/build/ras_ros_core_control_modules/install.log --single-version-externally-managed install_data
+[1.894s] running egg_info
+[1.895s] writing ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/PKG-INFO
+[1.900s] writing dependency_links to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/dependency_links.txt
+[1.900s] writing entry points to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/entry_points.txt
+[1.900s] writing requirements to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/requires.txt
+[1.900s] writing top-level names to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/top_level.txt
+[1.904s] reading manifest file '../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/SOURCES.txt'
+[1.906s] writing manifest file '../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/SOURCES.txt'
+[1.906s] running build
+[1.906s] running build_py
+[1.907s] copying ras_ros_core_control_modules/sensor_processing/navsat_cartesian_transform.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/sensor_processing
+[1.908s] copying ras_ros_core_control_modules/sensor_processing/__init__.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/sensor_processing
+[1.908s] copying ras_ros_core_control_modules/sensor_processing/vel_differentiator.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/sensor_processing
+[1.909s] copying ras_ros_core_control_modules/motion_control/surge_vel_controller.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/motion_control
+[1.909s] copying ras_ros_core_control_modules/motion_control/__init__.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/motion_control
+[1.909s] copying ras_ros_core_control_modules/motion_control/heading_controller.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/motion_control
+[1.910s] copying ras_ros_core_control_modules/control_effort_allocation/control_effort_allocate_boilerplate.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/control_effort_allocation
+[1.910s] copying ras_ros_core_control_modules/control_effort_allocation/TN_control_effort_allocator_nomoto.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/control_effort_allocation
+[1.911s] copying ras_ros_core_control_modules/control_effort_allocation/__init__.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/control_effort_allocation
+[1.911s] copying ras_ros_core_control_modules/control_effort_allocation/control_effort_allocator_super.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/control_effort_allocation
+[1.911s] copying ras_ros_core_control_modules/control_effort_allocation/TN_control_effort_allocator_dp_01.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/control_effort_allocation
+[1.912s] copying ras_ros_core_control_modules/tools/geometry_tools.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/tools
+[1.912s] copying ras_ros_core_control_modules/tools/control_tools.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/tools
+[1.913s] copying ras_ros_core_control_modules/tools/__init__.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/tools
+[1.913s] copying ras_ros_core_control_modules/tools/titoneri_parameters.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/tools
+[1.913s] copying ras_ros_core_control_modules/tools/display_tools.py -> /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/tools
+[1.914s] running install
+[1.914s] running install_lib
+[1.916s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/control_effort_allocation/control_effort_allocate_boilerplate.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/control_effort_allocation
+[1.916s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/control_effort_allocation/TN_control_effort_allocator_nomoto.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/control_effort_allocation
+[1.916s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/control_effort_allocation/__init__.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/control_effort_allocation
+[1.917s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/control_effort_allocation/control_effort_allocator_super.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/control_effort_allocation
+[1.917s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/control_effort_allocation/TN_control_effort_allocator_dp_01.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/control_effort_allocation
+[1.917s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/tools/geometry_tools.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/tools
+[1.917s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/tools/control_tools.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/tools
+[1.918s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/tools/__init__.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/tools
+[1.918s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/tools/titoneri_parameters.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/tools
+[1.918s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/tools/display_tools.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/tools
+[1.921s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/motion_control/surge_vel_controller.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/motion_control
+[1.921s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/motion_control/__init__.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/motion_control
+[1.921s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/motion_control/heading_controller.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/motion_control
+[1.921s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/sensor_processing/navsat_cartesian_transform.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/sensor_processing
+[1.922s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/sensor_processing/__init__.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/sensor_processing
+[1.922s] copying /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build/lib/ras_ros_core_control_modules/sensor_processing/vel_differentiator.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/sensor_processing
+[1.922s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/control_effort_allocation/control_effort_allocate_boilerplate.py to control_effort_allocate_boilerplate.cpython-310.pyc
+[1.922s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/control_effort_allocation/TN_control_effort_allocator_nomoto.py to TN_control_effort_allocator_nomoto.cpython-310.pyc
+[1.923s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/control_effort_allocation/__init__.py to __init__.cpython-310.pyc
+[1.924s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/control_effort_allocation/control_effort_allocator_super.py to control_effort_allocator_super.cpython-310.pyc
+[1.926s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/control_effort_allocation/TN_control_effort_allocator_dp_01.py to TN_control_effort_allocator_dp_01.cpython-310.pyc
+[1.928s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/tools/geometry_tools.py to geometry_tools.cpython-310.pyc
+[1.931s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/tools/control_tools.py to control_tools.cpython-310.pyc
+[1.933s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/tools/__init__.py to __init__.cpython-310.pyc
+[1.933s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/tools/titoneri_parameters.py to titoneri_parameters.cpython-310.pyc
+[1.936s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/tools/display_tools.py to display_tools.cpython-310.pyc
+[1.937s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/motion_control/surge_vel_controller.py to surge_vel_controller.cpython-310.pyc
+[1.939s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/motion_control/__init__.py to __init__.cpython-310.pyc
+[1.939s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/motion_control/heading_controller.py to heading_controller.cpython-310.pyc
+[1.941s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/sensor_processing/navsat_cartesian_transform.py to navsat_cartesian_transform.cpython-310.pyc
+[1.943s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/sensor_processing/__init__.py to __init__.cpython-310.pyc
+[1.943s] byte-compiling /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules/sensor_processing/vel_differentiator.py to vel_differentiator.cpython-310.pyc
+[1.945s] running install_data
+[1.946s] copying resource/ras_ros_core_control_modules -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ament_index/resource_index/packages
+[1.946s] copying package.xml -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules
+[1.947s] copying launch/fleet_sim.launch.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules
+[1.947s] copying launch/fleet_geo_utils.launch.py -> /home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules
+[1.947s] running install_egg_info
+[1.951s] removing '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules-0.0.0-py3.10.egg-info' (and everything under it)
+[1.951s] Copying ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules-0.0.0-py3.10.egg-info
+[1.953s] running install_scripts
+[1.990s] Installing TN_control_effort_allocator_dp1 script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.990s] Installing TN_control_effort_allocator_nomoto script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.991s] Installing heading_controller script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.991s] Installing navsat_cartesian_transform script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.991s] Installing surge_vel_controller script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.992s] Installing vel_differentiator script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.993s] writing list of installed files to '/home/olivier/ros2_ws/build/ras_ros_core_control_modules/install.log'
+[2.116s] Invoked command in '/home/olivier/ros2_ws/src/ras_ros_core_control_modules-main' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/ras_ros_core_control_modules/prefix_override:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ras_ros_core_control_modules build --build-base /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build install --record /home/olivier/ros2_ws/build/ras_ros_core_control_modules/install.log --single-version-externally-managed install_data

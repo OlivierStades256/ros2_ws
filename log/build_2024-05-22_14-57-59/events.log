@@ -1,0 +1,444 @@
+[0.000000] (-) TimerEvent: {}
+[0.001134] (boat_controller) JobQueued: {'identifier': 'boat_controller', 'dependencies': OrderedDict()}
+[0.001359] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001523] (ras_ros_core_control_modules) JobQueued: {'identifier': 'ras_ros_core_control_modules', 'dependencies': OrderedDict()}
+[0.001737] (ras_urdf_common) JobQueued: {'identifier': 'ras_urdf_common', 'dependencies': OrderedDict()}
+[0.001918] (turtleboat) JobQueued: {'identifier': 'turtleboat', 'dependencies': OrderedDict()}
+[0.002088] (usv_formation_control_1) JobQueued: {'identifier': 'usv_formation_control_1', 'dependencies': OrderedDict()}
+[0.003086] (boat_controller) JobStarted: {'identifier': 'boat_controller'}
+[0.047549] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.098272] (ras_ros_core_control_modules) JobStarted: {'identifier': 'ras_ros_core_control_modules'}
+[0.098638] (-) TimerEvent: {}
+[0.141007] (ras_urdf_common) JobStarted: {'identifier': 'ras_urdf_common'}
+[0.198820] (-) TimerEvent: {}
+[0.300017] (-) TimerEvent: {}
+[0.401352] (-) TimerEvent: {}
+[0.502113] (-) TimerEvent: {}
+[0.602722] (-) TimerEvent: {}
+[0.703343] (-) TimerEvent: {}
+[0.803958] (-) TimerEvent: {}
+[0.904621] (-) TimerEvent: {}
+[1.005287] (-) TimerEvent: {}
+[1.105916] (-) TimerEvent: {}
+[1.206587] (-) TimerEvent: {}
+[1.307269] (-) TimerEvent: {}
+[1.407947] (-) TimerEvent: {}
+[1.508649] (-) TimerEvent: {}
+[1.609370] (-) TimerEvent: {}
+[1.710075] (-) TimerEvent: {}
+[1.810736] (-) TimerEvent: {}
+[1.911384] (-) TimerEvent: {}
+[2.012105] (-) TimerEvent: {}
+[2.113136] (-) TimerEvent: {}
+[2.214053] (-) TimerEvent: {}
+[2.314904] (-) TimerEvent: {}
+[2.415854] (-) TimerEvent: {}
+[2.516745] (-) TimerEvent: {}
+[2.617863] (-) TimerEvent: {}
+[2.719685] (-) TimerEvent: {}
+[2.820684] (-) TimerEvent: {}
+[2.921567] (-) TimerEvent: {}
+[3.022402] (-) TimerEvent: {}
+[3.123229] (-) TimerEvent: {}
+[3.224087] (-) TimerEvent: {}
+[3.325462] (-) TimerEvent: {}
+[3.427770] (-) TimerEvent: {}
+[3.529311] (-) TimerEvent: {}
+[3.632256] (-) TimerEvent: {}
+[3.733118] (-) TimerEvent: {}
+[3.834035] (-) TimerEvent: {}
+[3.934967] (-) TimerEvent: {}
+[4.035927] (-) TimerEvent: {}
+[4.136892] (-) TimerEvent: {}
+[4.186103] (ras_urdf_common) JobProgress: {'identifier': 'ras_urdf_common', 'progress': 'cmake'}
+[4.189680] (ras_urdf_common) JobProgress: {'identifier': 'ras_urdf_common', 'progress': 'build'}
+[4.192802] (ras_urdf_common) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/olivier/ros2_ws/build/ras_urdf_common', '--', '-j4', '-l4'], 'cwd': '/home/olivier/ros2_ws/build/ras_urdf_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'olivier'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/olivier'), ('OLDPWD', '/home/olivier'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/olivier/ros2_ws/install:/home/olivier/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'olivier'), ('_', '/home/olivier/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'olivier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/olivier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/olivier-MacBookPro:@/tmp/.ICE-unix/1968,unix/olivier-MacBookPro:/tmp/.ICE-unix/1968'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/801a530c_5a53_4e35_abff_8e350e3794ac'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NHJRN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/ras_urdf_common:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/py_pubsub:/home/olivier/install/boat_controller:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/olivier/ros2_ws/build/ras_urdf_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:/home/olivier/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/install/turtleboat/lib/python3.10/site-packages:/home/olivier/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/install/boat_controller/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/install/ras_urdf_common:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/py_pubsub:/home/olivier/install/boat_controller:/opt/ros/iron')]), 'shell': False}
+[4.237662] (-) TimerEvent: {}
+[4.339272] (-) TimerEvent: {}
+[4.446000] (-) TimerEvent: {}
+[4.546997] (-) TimerEvent: {}
+[4.647960] (-) TimerEvent: {}
+[4.749923] (-) TimerEvent: {}
+[4.850893] (-) TimerEvent: {}
+[4.928177] (ras_urdf_common) StdoutLine: {'line': b'Built target ament_cmake_python_copy_ras_urdf_common\n'}
+[4.951095] (-) TimerEvent: {}
+[5.052097] (-) TimerEvent: {}
+[5.153746] (-) TimerEvent: {}
+[5.255425] (-) TimerEvent: {}
+[5.357080] (-) TimerEvent: {}
+[5.458745] (-) TimerEvent: {}
+[5.560354] (-) TimerEvent: {}
+[5.663036] (-) TimerEvent: {}
+[5.764644] (-) TimerEvent: {}
+[5.866295] (-) TimerEvent: {}
+[5.967915] (-) TimerEvent: {}
+[6.069499] (-) TimerEvent: {}
+[6.171136] (-) TimerEvent: {}
+[6.272764] (-) TimerEvent: {}
+[6.375349] (-) TimerEvent: {}
+[6.476983] (-) TimerEvent: {}
+[6.584618] (-) TimerEvent: {}
+[6.686264] (-) TimerEvent: {}
+[6.787871] (-) TimerEvent: {}
+[6.893192] (-) TimerEvent: {}
+[6.994816] (-) TimerEvent: {}
+[7.096471] (-) TimerEvent: {}
+[7.198122] (-) TimerEvent: {}
+[7.299747] (-) TimerEvent: {}
+[7.401410] (-) TimerEvent: {}
+[7.503250] (-) TimerEvent: {}
+[7.609099] (-) TimerEvent: {}
+[7.711548] (-) TimerEvent: {}
+[7.781962] (ras_urdf_common) StdoutLine: {'line': b'running egg_info\n'}
+[7.794035] (ras_urdf_common) StdoutLine: {'line': b'writing ras_urdf_common.egg-info/PKG-INFO\n'}
+[7.801773] (ras_urdf_common) StdoutLine: {'line': b'writing dependency_links to ras_urdf_common.egg-info/dependency_links.txt\n'}
+[7.811777] (-) TimerEvent: {}
+[7.813757] (ras_urdf_common) StdoutLine: {'line': b'writing top-level names to ras_urdf_common.egg-info/top_level.txt\n'}
+[7.836659] (ras_urdf_common) StdoutLine: {'line': b"reading manifest file 'ras_urdf_common.egg-info/SOURCES.txt'\n"}
+[7.846074] (ras_urdf_common) StdoutLine: {'line': b"writing manifest file 'ras_urdf_common.egg-info/SOURCES.txt'\n"}
+[7.912016] (-) TimerEvent: {}
+[8.013466] (-) TimerEvent: {}
+[8.044072] (ras_urdf_common) StdoutLine: {'line': b'Built target ament_cmake_python_build_ras_urdf_common_egg\n'}
+[8.113654] (-) TimerEvent: {}
+[8.184306] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/olivier/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/olivier/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/olivier/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olivier', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/olivier', 'OLDPWD': '/home/olivier', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nl_NL.UTF-8', 'SYSTEMD_EXEC_PID': '1989', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/olivier/ros2_ws/install:/home/olivier/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'olivier', '_': '/home/olivier/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'olivier', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/home/olivier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/olivier-MacBookPro:@/tmp/.ICE-unix/1968,unix/olivier-MacBookPro:/tmp/.ICE-unix/1968', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/801a530c_5a53_4e35_abff_8e350e3794ac', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NHJRN2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/ras_urdf_common:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/py_pubsub:/home/olivier/install/boat_controller:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/olivier/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/olivier/ros2_ws/build/py_pubsub/prefix_override:/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:/home/olivier/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/install/turtleboat/lib/python3.10/site-packages:/home/olivier/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/install/boat_controller/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/install/ras_urdf_common'}, 'shell': False}
+[8.213850] (-) TimerEvent: {}
+[8.242414] (ras_urdf_common) CommandEnded: {'returncode': 0}
+[8.314062] (-) TimerEvent: {}
+[8.415966] (-) TimerEvent: {}
+[8.517848] (-) TimerEvent: {}
+[8.619813] (-) TimerEvent: {}
+[8.721590] (-) TimerEvent: {}
+[8.773618] (ras_urdf_common) JobProgress: {'identifier': 'ras_urdf_common', 'progress': 'install'}
+[8.821994] (-) TimerEvent: {}
+[8.884842] (ras_urdf_common) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/olivier/ros2_ws/build/ras_urdf_common'], 'cwd': '/home/olivier/ros2_ws/build/ras_urdf_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'olivier'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/olivier'), ('OLDPWD', '/home/olivier'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/olivier/ros2_ws/install:/home/olivier/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'olivier'), ('_', '/home/olivier/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'olivier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/olivier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/olivier-MacBookPro:@/tmp/.ICE-unix/1968,unix/olivier-MacBookPro:/tmp/.ICE-unix/1968'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/801a530c_5a53_4e35_abff_8e350e3794ac'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NHJRN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/ras_urdf_common:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/py_pubsub:/home/olivier/install/boat_controller:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/olivier/ros2_ws/build/ras_urdf_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:/home/olivier/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/install/turtleboat/lib/python3.10/site-packages:/home/olivier/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/install/boat_controller/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/install/ras_urdf_common:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/py_pubsub:/home/olivier/install/boat_controller:/opt/ros/iron')]), 'shell': False}
+[8.909560] (boat_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/boat_controller', 'build', '--build-base', '/home/olivier/ros2_ws/build/boat_controller/build', 'install', '--record', '/home/olivier/ros2_ws/build/boat_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/olivier/ros2_ws/src/boat_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olivier', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/olivier', 'OLDPWD': '/home/olivier', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nl_NL.UTF-8', 'SYSTEMD_EXEC_PID': '1989', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/olivier/ros2_ws/install:/home/olivier/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'olivier', '_': '/home/olivier/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'olivier', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/home/olivier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/olivier-MacBookPro:@/tmp/.ICE-unix/1968,unix/olivier-MacBookPro:/tmp/.ICE-unix/1968', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/801a530c_5a53_4e35_abff_8e350e3794ac', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NHJRN2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/ras_urdf_common:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/py_pubsub:/home/olivier/install/boat_controller:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/olivier/ros2_ws/build/boat_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/olivier/ros2_ws/build/boat_controller/prefix_override:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:/home/olivier/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/install/turtleboat/lib/python3.10/site-packages:/home/olivier/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/install/boat_controller/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/install/ras_urdf_common'}, 'shell': False}
+[8.926674] (-) TimerEvent: {}
+[8.987774] (ras_urdf_common) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.993631] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/launch\n'}
+[8.999858] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/launch/rviz_bringup.launch.py\n'}
+[9.005466] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/meshes\n'}
+[9.022775] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/meshes/TN_propeller1.stl\n'}
+[9.030567] (-) TimerEvent: {}
+[9.032562] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/meshes/TN_collisionMesh1.stl\n'}
+[9.038770] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/meshes/TN_hull_BB_1.stl\n'}
+[9.045121] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/rviz\n'}
+[9.051393] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/rviz/urdf.rviz\n'}
+[9.066372] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/urdf\n'}
+[9.074210] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/urdf/titoneri.urdf.xacro\n'}
+[9.085412] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/ras_urdf_common\n'}
+[9.101406] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/ras_urdf_common/__init__.py\n'}
+[9.131141] (-) TimerEvent: {}
+[9.137629] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/scripts\n'}
+[9.138456] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/scripts/azi_joint_state_broadcaster.py\n'}
+[9.138978] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/pythonpath.sh\n'}
+[9.142175] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/pythonpath.dsv\n'}
+[9.142746] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common-0.0.0-py3.10.egg-info\n'}
+[9.143239] (ras_urdf_common) StdoutLine: {'line': b'-- Installing: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.143709] (ras_urdf_common) StdoutLine: {'line': b'-- Installing: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.144216] (ras_urdf_common) StdoutLine: {'line': b'-- Installing: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.144676] (ras_urdf_common) StdoutLine: {'line': b'-- Installing: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.145139] (ras_ros_core_control_modules) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ras_ros_core_control_modules', 'build', '--build-base', '/home/olivier/ros2_ws/build/ras_ros_core_control_modules/build', 'install', '--record', '/home/olivier/ros2_ws/build/ras_ros_core_control_modules/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/olivier/ros2_ws/src/ras_ros_core_control_modules-main', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olivier', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/olivier', 'OLDPWD': '/home/olivier', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nl_NL.UTF-8', 'SYSTEMD_EXEC_PID': '1989', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/olivier/ros2_ws/install:/home/olivier/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'olivier', '_': '/home/olivier/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'olivier', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/home/olivier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/olivier-MacBookPro:@/tmp/.ICE-unix/1968,unix/olivier-MacBookPro:/tmp/.ICE-unix/1968', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/801a530c_5a53_4e35_abff_8e350e3794ac', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NHJRN2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/ras_urdf_common:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/py_pubsub:/home/olivier/install/boat_controller:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/olivier/ros2_ws/build/ras_ros_core_control_modules', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/olivier/ros2_ws/build/ras_ros_core_control_modules/prefix_override:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:/home/olivier/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/install/turtleboat/lib/python3.10/site-packages:/home/olivier/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/install/boat_controller/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/install/ras_urdf_common'}, 'shell': False}
+[9.148781] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common\n'}
+[9.160736] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common/__init__.py\n'}
+[9.237713] (-) TimerEvent: {}
+[9.338720] (-) TimerEvent: {}
+[9.440529] (-) TimerEvent: {}
+[9.542227] (-) TimerEvent: {}
+[9.570578] (ras_urdf_common) StdoutLine: {'line': b"Listing '/home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages/ras_urdf_common'...\n"}
+[9.651617] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/lib/ras_urdf_common/azi_joint_state_broadcaster.py\n'}
+[9.652407] (-) TimerEvent: {}
+[9.653013] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ament_index/resource_index/package_run_dependencies/ras_urdf_common\n'}
+[9.653752] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ament_index/resource_index/parent_prefix_path/ras_urdf_common\n'}
+[9.654260] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/ament_prefix_path.sh\n'}
+[9.654737] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/ament_prefix_path.dsv\n'}
+[9.655254] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/path.sh\n'}
+[9.655721] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/environment/path.dsv\n'}
+[9.656180] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/local_setup.bash\n'}
+[9.656637] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/local_setup.sh\n'}
+[9.690306] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/local_setup.zsh\n'}
+[9.690948] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/local_setup.dsv\n'}
+[9.691455] (ras_urdf_common) StdoutLine: {'line': b'-- Installing: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.dsv\n'}
+[9.691933] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ament_index/resource_index/packages/ras_urdf_common\n'}
+[9.692416] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/cmake/ras_urdf_commonConfig.cmake\n'}
+[9.692882] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/cmake/ras_urdf_commonConfig-version.cmake\n'}
+[9.701659] (ras_urdf_common) StdoutLine: {'line': b'-- Up-to-date: /home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.xml\n'}
+[9.702234] (ras_urdf_common) CommandEnded: {'returncode': 0}
+[9.752607] (-) TimerEvent: {}
+[9.853643] (-) TimerEvent: {}
+[9.955215] (-) TimerEvent: {}
+[10.057113] (-) TimerEvent: {}
+[10.158988] (-) TimerEvent: {}
+[10.261921] (-) TimerEvent: {}
+[10.363981] (-) TimerEvent: {}
+[10.466019] (-) TimerEvent: {}
+[10.567782] (-) TimerEvent: {}
+[10.695347] (-) TimerEvent: {}
+[10.775813] (ras_urdf_common) JobEnded: {'identifier': 'ras_urdf_common', 'rc': 0}
+[10.778147] (turtleboat) JobStarted: {'identifier': 'turtleboat'}
+[10.798242] (-) TimerEvent: {}
+[10.909368] (-) TimerEvent: {}
+[11.013322] (-) TimerEvent: {}
+[11.125352] (-) TimerEvent: {}
+[11.233340] (-) TimerEvent: {}
+[11.341358] (-) TimerEvent: {}
+[11.445347] (-) TimerEvent: {}
+[11.553318] (-) TimerEvent: {}
+[11.657304] (-) TimerEvent: {}
+[11.761341] (-) TimerEvent: {}
+[11.869326] (-) TimerEvent: {}
+[11.973311] (-) TimerEvent: {}
+[12.077333] (-) TimerEvent: {}
+[12.197319] (-) TimerEvent: {}
+[12.305310] (-) TimerEvent: {}
+[12.413302] (-) TimerEvent: {}
+[12.517347] (-) TimerEvent: {}
+[12.622499] (-) TimerEvent: {}
+[12.725309] (-) TimerEvent: {}
+[12.827304] (-) TimerEvent: {}
+[12.933320] (-) TimerEvent: {}
+[13.037312] (-) TimerEvent: {}
+[13.141319] (-) TimerEvent: {}
+[13.253357] (-) TimerEvent: {}
+[13.285305] (boat_controller) StdoutLine: {'line': b'running egg_info\n'}
+[13.286199] (boat_controller) StdoutLine: {'line': b'writing ../../build/boat_controller/boat_controller.egg-info/PKG-INFO\n'}
+[13.286774] (boat_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/boat_controller/boat_controller.egg-info/dependency_links.txt\n'}
+[13.287371] (boat_controller) StdoutLine: {'line': b'writing entry points to ../../build/boat_controller/boat_controller.egg-info/entry_points.txt\n'}
+[13.288002] (boat_controller) StdoutLine: {'line': b'writing requirements to ../../build/boat_controller/boat_controller.egg-info/requires.txt\n'}
+[13.288603] (boat_controller) StdoutLine: {'line': b'writing top-level names to ../../build/boat_controller/boat_controller.egg-info/top_level.txt\n'}
+[13.317299] (boat_controller) StdoutLine: {'line': b"reading manifest file '../../build/boat_controller/boat_controller.egg-info/SOURCES.txt'\n"}
+[13.318102] (boat_controller) StdoutLine: {'line': b"writing manifest file '../../build/boat_controller/boat_controller.egg-info/SOURCES.txt'\n"}
+[13.321585] (boat_controller) StdoutLine: {'line': b'running build\n'}
+[13.325496] (boat_controller) StdoutLine: {'line': b'running build_py\n'}
+[13.331781] (boat_controller) StdoutLine: {'line': b'copying boat_controller/boat_controllermain.py -> /home/olivier/ros2_ws/build/boat_controller/build/lib/boat_controller\n'}
+[13.349522] (boat_controller) StdoutLine: {'line': b'running install\n'}
+[13.352516] (boat_controller) StdoutLine: {'line': b'running install_lib\n'}
+[13.356648] (-) TimerEvent: {}
+[13.361450] (boat_controller) StdoutLine: {'line': b'copying /home/olivier/ros2_ws/build/boat_controller/build/lib/boat_controller/boat_controllermain.py -> /home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages/boat_controller\n'}
+[13.377481] (boat_controller) StdoutLine: {'line': b'byte-compiling /home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages/boat_controller/boat_controllermain.py to boat_controllermain.cpython-310.pyc\n'}
+[13.393558] (boat_controller) StdoutLine: {'line': b'running install_data\n'}
+[13.394357] (boat_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.417336] (boat_controller) StdoutLine: {'line': b"removing '/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages/boat_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.437612] (boat_controller) StdoutLine: {'line': b'Copying ../../build/boat_controller/boat_controller.egg-info to /home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages/boat_controller-0.0.0-py3.10.egg-info\n'}
+[13.445514] (boat_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[13.461326] (-) TimerEvent: {}
+[13.513570] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[13.541570] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[13.544007] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[13.549446] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[13.562704] (-) TimerEvent: {}
+[13.563726] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[13.565728] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[13.618826] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[13.650628] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[13.652349] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[13.661552] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[13.662854] (-) TimerEvent: {}
+[13.676417] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[13.683771] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[13.741866] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[13.744155] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.763057] (-) TimerEvent: {}
+[13.793598] (py_pubsub) StdoutLine: {'line': b"removing '/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.801973] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[13.833519] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[13.863268] (-) TimerEvent: {}
+[13.882445] (boat_controller) StdoutLine: {'line': b'Installing boat_controllermain script to /home/olivier/ros2_ws/install/boat_controller/lib/boat_controller\n'}
+[13.884718] (boat_controller) StdoutLine: {'line': b"writing list of installed files to '/home/olivier/ros2_ws/build/boat_controller/install.log'\n"}
+[13.963480] (-) TimerEvent: {}
+[14.064662] (-) TimerEvent: {}
+[14.177340] (-) TimerEvent: {}
+[14.281364] (-) TimerEvent: {}
+[14.385335] (-) TimerEvent: {}
+[14.486408] (-) TimerEvent: {}
+[14.489126] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/olivier/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[14.494855] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/olivier/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[14.509503] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/olivier/ros2_ws/build/py_pubsub/install.log'\n"}
+[14.586613] (-) TimerEvent: {}
+[14.694388] (-) TimerEvent: {}
+[14.805337] (-) TimerEvent: {}
+[14.906396] (-) TimerEvent: {}
+[15.017369] (-) TimerEvent: {}
+[15.069353] (ras_ros_core_control_modules) StdoutLine: {'line': b'running egg_info\n'}
+[15.071680] (ras_ros_core_control_modules) StdoutLine: {'line': b'writing ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/PKG-INFO\n'}
+[15.073996] (ras_ros_core_control_modules) StdoutLine: {'line': b'writing dependency_links to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/dependency_links.txt\n'}
+[15.076289] (ras_ros_core_control_modules) StdoutLine: {'line': b'writing entry points to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/entry_points.txt\n'}
+[15.082311] (ras_ros_core_control_modules) StdoutLine: {'line': b'writing requirements to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/requires.txt\n'}
+[15.084045] (ras_ros_core_control_modules) StdoutLine: {'line': b'writing top-level names to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/top_level.txt\n'}
+[15.109939] (ras_ros_core_control_modules) StdoutLine: {'line': b"reading manifest file '../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/SOURCES.txt'\n"}
+[15.121306] (-) TimerEvent: {}
+[15.137569] (ras_ros_core_control_modules) StdoutLine: {'line': b"writing manifest file '../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/SOURCES.txt'\n"}
+[15.139257] (ras_ros_core_control_modules) StdoutLine: {'line': b'running build\n'}
+[15.140329] (ras_ros_core_control_modules) StdoutLine: {'line': b'running build_py\n'}
+[15.161612] (ras_ros_core_control_modules) StdoutLine: {'line': b'running install\n'}
+[15.164827] (ras_ros_core_control_modules) StdoutLine: {'line': b'running install_lib\n'}
+[15.191801] (ras_ros_core_control_modules) StdoutLine: {'line': b'running install_data\n'}
+[15.198074] (ras_ros_core_control_modules) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.221525] (-) TimerEvent: {}
+[15.231516] (ras_ros_core_control_modules) StdoutLine: {'line': b"removing '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.245472] (ras_ros_core_control_modules) StdoutLine: {'line': b'Copying ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules-0.0.0-py3.10.egg-info\n'}
+[15.256619] (ras_ros_core_control_modules) StdoutLine: {'line': b'running install_scripts\n'}
+[15.321708] (-) TimerEvent: {}
+[15.425953] (-) TimerEvent: {}
+[15.527245] (-) TimerEvent: {}
+[15.598556] (ras_ros_core_control_modules) StdoutLine: {'line': b'Installing TN_control_effort_allocator_dp1 script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules\n'}
+[15.605716] (ras_ros_core_control_modules) StdoutLine: {'line': b'Installing TN_control_effort_allocator_nomoto script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules\n'}
+[15.608087] (ras_ros_core_control_modules) StdoutLine: {'line': b'Installing heading_controller script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules\n'}
+[15.617831] (ras_ros_core_control_modules) StdoutLine: {'line': b'Installing navsat_cartesian_transform script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules\n'}
+[15.620171] (ras_ros_core_control_modules) StdoutLine: {'line': b'Installing surge_vel_controller script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules\n'}
+[15.622348] (ras_ros_core_control_modules) StdoutLine: {'line': b'Installing vel_differentiator script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules\n'}
+[15.629336] (-) TimerEvent: {}
+[15.645629] (ras_ros_core_control_modules) StdoutLine: {'line': b"writing list of installed files to '/home/olivier/ros2_ws/build/ras_ros_core_control_modules/install.log'\n"}
+[15.737344] (-) TimerEvent: {}
+[15.841504] (-) TimerEvent: {}
+[15.945697] (-) TimerEvent: {}
+[16.046777] (-) TimerEvent: {}
+[16.147827] (-) TimerEvent: {}
+[16.259928] (boat_controller) CommandEnded: {'returncode': 0}
+[16.262541] (-) TimerEvent: {}
+[16.316027] (boat_controller) JobEnded: {'identifier': 'boat_controller', 'rc': 0}
+[16.318186] (py_pubsub) CommandEnded: {'returncode': 0}
+[16.362793] (-) TimerEvent: {}
+[16.373130] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[16.375175] (ras_ros_core_control_modules) CommandEnded: {'returncode': 0}
+[16.437928] (ras_ros_core_control_modules) JobEnded: {'identifier': 'ras_ros_core_control_modules', 'rc': 0}
+[16.439732] (usv_formation_control_1) JobStarted: {'identifier': 'usv_formation_control_1'}
+[16.463893] (-) TimerEvent: {}
+[16.585330] (-) TimerEvent: {}
+[16.689499] (-) TimerEvent: {}
+[16.793311] (-) TimerEvent: {}
+[16.897354] (-) TimerEvent: {}
+[17.001313] (-) TimerEvent: {}
+[17.105332] (-) TimerEvent: {}
+[17.209336] (-) TimerEvent: {}
+[17.317318] (-) TimerEvent: {}
+[17.421326] (-) TimerEvent: {}
+[17.529325] (-) TimerEvent: {}
+[17.633341] (-) TimerEvent: {}
+[17.737310] (-) TimerEvent: {}
+[17.841320] (-) TimerEvent: {}
+[17.945316] (-) TimerEvent: {}
+[18.049322] (-) TimerEvent: {}
+[18.157317] (-) TimerEvent: {}
+[18.260610] (-) TimerEvent: {}
+[18.365318] (-) TimerEvent: {}
+[18.469311] (-) TimerEvent: {}
+[18.574474] (-) TimerEvent: {}
+[18.677488] (-) TimerEvent: {}
+[18.781343] (-) TimerEvent: {}
+[18.885430] (-) TimerEvent: {}
+[18.989319] (-) TimerEvent: {}
+[19.093355] (-) TimerEvent: {}
+[19.201330] (-) TimerEvent: {}
+[19.305319] (-) TimerEvent: {}
+[19.409341] (-) TimerEvent: {}
+[19.515670] (-) TimerEvent: {}
+[19.626560] (-) TimerEvent: {}
+[19.729428] (-) TimerEvent: {}
+[19.837392] (-) TimerEvent: {}
+[19.939102] (-) TimerEvent: {}
+[19.953515] (turtleboat) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtleboat', 'build', '--build-base', '/home/olivier/ros2_ws/build/turtleboat/build', 'install', '--record', '/home/olivier/ros2_ws/build/turtleboat/install.log', '--install-scripts', '$base/lib/turtleboat', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/olivier/ros2_ws/src/TurtleBoat-ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olivier', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/olivier', 'OLDPWD': '/home/olivier', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nl_NL.UTF-8', 'SYSTEMD_EXEC_PID': '1989', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/olivier/ros2_ws/install:/home/olivier/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'olivier', '_': '/home/olivier/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'olivier', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/home/olivier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/olivier-MacBookPro:@/tmp/.ICE-unix/1968,unix/olivier-MacBookPro:/tmp/.ICE-unix/1968', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/801a530c_5a53_4e35_abff_8e350e3794ac', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NHJRN2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/ras_urdf_common:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/py_pubsub:/home/olivier/install/boat_controller:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/olivier/ros2_ws/build/turtleboat', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/olivier/ros2_ws/build/turtleboat/prefix_override:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:/home/olivier/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/install/turtleboat/lib/python3.10/site-packages:/home/olivier/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/install/boat_controller/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/install/ras_urdf_common'}, 'shell': False}
+[20.049327] (-) TimerEvent: {}
+[20.154097] (-) TimerEvent: {}
+[20.254983] (-) TimerEvent: {}
+[20.355838] (-) TimerEvent: {}
+[20.457578] (-) TimerEvent: {}
+[20.559477] (-) TimerEvent: {}
+[20.660408] (-) TimerEvent: {}
+[20.761318] (-) TimerEvent: {}
+[20.862205] (-) TimerEvent: {}
+[20.963103] (-) TimerEvent: {}
+[21.063965] (-) TimerEvent: {}
+[21.164894] (-) TimerEvent: {}
+[21.265915] (-) TimerEvent: {}
+[21.366812] (-) TimerEvent: {}
+[21.467705] (-) TimerEvent: {}
+[21.568573] (-) TimerEvent: {}
+[21.669538] (-) TimerEvent: {}
+[21.770418] (-) TimerEvent: {}
+[21.871297] (-) TimerEvent: {}
+[21.972160] (-) TimerEvent: {}
+[22.073022] (-) TimerEvent: {}
+[22.174077] (-) TimerEvent: {}
+[22.275038] (-) TimerEvent: {}
+[22.375984] (-) TimerEvent: {}
+[22.476967] (-) TimerEvent: {}
+[22.578005] (-) TimerEvent: {}
+[22.678888] (-) TimerEvent: {}
+[22.779757] (-) TimerEvent: {}
+[22.880656] (-) TimerEvent: {}
+[22.981710] (-) TimerEvent: {}
+[23.047833] (usv_formation_control_1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/usv_formation_control_1', 'build', '--build-base', '/home/olivier/ros2_ws/build/usv_formation_control_1/build', 'install', '--record', '/home/olivier/ros2_ws/build/usv_formation_control_1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/olivier/ros2_ws/src/USV_formation_control_1-ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olivier', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/olivier', 'OLDPWD': '/home/olivier', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nl_NL.UTF-8', 'SYSTEMD_EXEC_PID': '1989', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/olivier/ros2_ws/install:/home/olivier/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'olivier', '_': '/home/olivier/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'olivier', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/home/olivier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/olivier-MacBookPro:@/tmp/.ICE-unix/1968,unix/olivier-MacBookPro:/tmp/.ICE-unix/1968', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/801a530c_5a53_4e35_abff_8e350e3794ac', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NHJRN2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/ras_urdf_common:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/py_pubsub:/home/olivier/install/boat_controller:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/olivier/ros2_ws/build/usv_formation_control_1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/olivier/ros2_ws/build/usv_formation_control_1/prefix_override:/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:/home/olivier/install/usv_formation_control_1/lib/python3.10/site-packages:/home/olivier/install/turtleboat/lib/python3.10/site-packages:/home/olivier/install/ras_urdf_common/lib/python3.10/site-packages:/home/olivier/install/ras_ros_core_control_modules/lib/python3.10/site-packages:/home/olivier/install/py_pubsub/lib/python3.10/site-packages:/home/olivier/install/boat_controller/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/olivier/ros2_ws/install/ras_urdf_common:/home/olivier/install/ras_urdf_common'}, 'shell': False}
+[23.085329] (-) TimerEvent: {}
+[23.189358] (-) TimerEvent: {}
+[23.293332] (-) TimerEvent: {}
+[23.397328] (-) TimerEvent: {}
+[23.498257] (-) TimerEvent: {}
+[23.601312] (turtleboat) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[23.602217] (-) TimerEvent: {}
+[23.603176] (turtleboat) StderrLine: {'line': b'  warnings.warn(\n'}
+[23.705318] (-) TimerEvent: {}
+[23.722931] (turtleboat) StdoutLine: {'line': b'running egg_info\n'}
+[23.729317] (turtleboat) StdoutLine: {'line': b'writing ../../build/turtleboat/turtleboat.egg-info/PKG-INFO\n'}
+[23.731729] (turtleboat) StdoutLine: {'line': b'writing dependency_links to ../../build/turtleboat/turtleboat.egg-info/dependency_links.txt\n'}
+[23.737892] (turtleboat) StdoutLine: {'line': b'writing entry points to ../../build/turtleboat/turtleboat.egg-info/entry_points.txt\n'}
+[23.738567] (turtleboat) StdoutLine: {'line': b'writing requirements to ../../build/turtleboat/turtleboat.egg-info/requires.txt\n'}
+[23.739164] (turtleboat) StdoutLine: {'line': b'writing top-level names to ../../build/turtleboat/turtleboat.egg-info/top_level.txt\n'}
+[23.769320] (turtleboat) StdoutLine: {'line': b"reading manifest file '../../build/turtleboat/turtleboat.egg-info/SOURCES.txt'\n"}
+[23.777848] (turtleboat) StdoutLine: {'line': b"writing manifest file '../../build/turtleboat/turtleboat.egg-info/SOURCES.txt'\n"}
+[23.788080] (turtleboat) StdoutLine: {'line': b'running build\n'}
+[23.788665] (turtleboat) StdoutLine: {'line': b'running build_py\n'}
+[23.789195] (turtleboat) StdoutLine: {'line': b'running install\n'}
+[23.809374] (turtleboat) StdoutLine: {'line': b'running install_lib\n'}
+[23.810220] (-) TimerEvent: {}
+[23.815595] (turtleboat) StdoutLine: {'line': b'running install_data\n'}
+[23.821649] (turtleboat) StdoutLine: {'line': b'running install_egg_info\n'}
+[23.845514] (turtleboat) StdoutLine: {'line': b"removing '/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages/turtleboat-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[23.854042] (turtleboat) StdoutLine: {'line': b'Copying ../../build/turtleboat/turtleboat.egg-info to /home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages/turtleboat-0.0.0-py3.10.egg-info\n'}
+[23.869634] (turtleboat) StdoutLine: {'line': b'running install_scripts\n'}
+[23.911531] (-) TimerEvent: {}
+[24.012577] (-) TimerEvent: {}
+[24.125398] (-) TimerEvent: {}
+[24.173614] (turtleboat) StdoutLine: {'line': b'Installing turtleboatmain script to /home/olivier/ros2_ws/install/turtleboat/lib/turtleboat\n'}
+[24.183407] (turtleboat) StdoutLine: {'line': b"writing list of installed files to '/home/olivier/ros2_ws/build/turtleboat/install.log'\n"}
+[24.225761] (-) TimerEvent: {}
+[24.329372] (-) TimerEvent: {}
+[24.437424] (-) TimerEvent: {}
+[24.449549] (turtleboat) CommandEnded: {'returncode': 0}
+[24.522415] (turtleboat) JobEnded: {'identifier': 'turtleboat', 'rc': 0}
+[24.537657] (-) TimerEvent: {}
+[24.638519] (-) TimerEvent: {}
+[24.739379] (-) TimerEvent: {}
+[24.840382] (-) TimerEvent: {}
+[24.941954] (-) TimerEvent: {}
+[25.042893] (-) TimerEvent: {}
+[25.143843] (-) TimerEvent: {}
+[25.244747] (-) TimerEvent: {}
+[25.345616] (-) TimerEvent: {}
+[25.352115] (usv_formation_control_1) StdoutLine: {'line': b'running egg_info\n'}
+[25.361642] (usv_formation_control_1) StdoutLine: {'line': b'writing ../../build/usv_formation_control_1/usv_formation_control_1.egg-info/PKG-INFO\n'}
+[25.362616] (usv_formation_control_1) StdoutLine: {'line': b'writing dependency_links to ../../build/usv_formation_control_1/usv_formation_control_1.egg-info/dependency_links.txt\n'}
+[25.363273] (usv_formation_control_1) StdoutLine: {'line': b'writing entry points to ../../build/usv_formation_control_1/usv_formation_control_1.egg-info/entry_points.txt\n'}
+[25.365048] (usv_formation_control_1) StdoutLine: {'line': b'writing requirements to ../../build/usv_formation_control_1/usv_formation_control_1.egg-info/requires.txt\n'}
+[25.365742] (usv_formation_control_1) StdoutLine: {'line': b'writing top-level names to ../../build/usv_formation_control_1/usv_formation_control_1.egg-info/top_level.txt\n'}
+[25.376647] (usv_formation_control_1) StdoutLine: {'line': b"reading manifest file '../../build/usv_formation_control_1/usv_formation_control_1.egg-info/SOURCES.txt'\n"}
+[25.384892] (usv_formation_control_1) StdoutLine: {'line': b"writing manifest file '../../build/usv_formation_control_1/usv_formation_control_1.egg-info/SOURCES.txt'\n"}
+[25.386092] (usv_formation_control_1) StdoutLine: {'line': b'running build\n'}
+[25.386816] (usv_formation_control_1) StdoutLine: {'line': b'running build_py\n'}
+[25.390041] (usv_formation_control_1) StdoutLine: {'line': b'running install\n'}
+[25.393030] (usv_formation_control_1) StdoutLine: {'line': b'running install_lib\n'}
+[25.403204] (usv_formation_control_1) StdoutLine: {'line': b'running install_data\n'}
+[25.404299] (usv_formation_control_1) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.417022] (usv_formation_control_1) StdoutLine: {'line': b"removing '/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages/usv_formation_control_1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[25.419204] (usv_formation_control_1) StdoutLine: {'line': b'Copying ../../build/usv_formation_control_1/usv_formation_control_1.egg-info to /home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages/usv_formation_control_1-0.0.0-py3.10.egg-info\n'}
+[25.426957] (usv_formation_control_1) StdoutLine: {'line': b'running install_scripts\n'}
+[25.445836] (-) TimerEvent: {}
+[25.546735] (-) TimerEvent: {}
+[25.607594] (usv_formation_control_1) StdoutLine: {'line': b'Installing formation_configuration_broadcaster_1 script to /home/olivier/ros2_ws/install/usv_formation_control_1/lib/usv_formation_control_1\n'}
+[25.608555] (usv_formation_control_1) StdoutLine: {'line': b'Installing formation_trajectory_planner script to /home/olivier/ros2_ws/install/usv_formation_control_1/lib/usv_formation_control_1\n'}
+[25.609868] (usv_formation_control_1) StdoutLine: {'line': b'Installing vessel_reference_generator script to /home/olivier/ros2_ws/install/usv_formation_control_1/lib/usv_formation_control_1\n'}
+[25.613062] (usv_formation_control_1) StdoutLine: {'line': b"writing list of installed files to '/home/olivier/ros2_ws/build/usv_formation_control_1/install.log'\n"}
+[25.646963] (-) TimerEvent: {}
+[25.747935] (-) TimerEvent: {}
+[25.790607] (usv_formation_control_1) CommandEnded: {'returncode': 0}
+[25.837350] (usv_formation_control_1) JobEnded: {'identifier': 'usv_formation_control_1', 'rc': 0}
+[25.843204] (-) EventReactorShutdown: {}

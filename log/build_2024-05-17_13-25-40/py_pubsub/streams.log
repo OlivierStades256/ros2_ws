@@ -1,0 +1,22 @@
+[2.692s] Invoking command in '/home/olivier/ros2_ws/src/py_pubsub': PYTHONPATH=/home/olivier/ros2_ws/build/py_pubsub/prefix_override:/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/olivier/ros2_ws/build/py_pubsub/build install --record /home/olivier/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[3.454s] running egg_info
+[3.455s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[3.459s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[3.459s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[3.459s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[3.459s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[3.469s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.469s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.470s] running build
+[3.472s] running build_py
+[3.472s] running install
+[3.472s] running install_lib
+[3.473s] running install_data
+[3.474s] running install_egg_info
+[3.491s] removing '/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[3.500s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[3.500s] running install_scripts
+[3.556s] Installing listener script to /home/olivier/ros2_ws/install/py_pubsub/lib/py_pubsub
+[3.556s] Installing talker script to /home/olivier/ros2_ws/install/py_pubsub/lib/py_pubsub
+[3.557s] writing list of installed files to '/home/olivier/ros2_ws/build/py_pubsub/install.log'
+[3.966s] Invoked command in '/home/olivier/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/py_pubsub/prefix_override:/home/olivier/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/olivier/ros2_ws/build/py_pubsub/build install --record /home/olivier/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
