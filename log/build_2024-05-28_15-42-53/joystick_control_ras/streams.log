@@ -1,0 +1,21 @@
+[1.542s] Invoking command in '/home/olivier/ros2_ws/src/ras_joystick_control-iron': PYTHONPATH=/home/olivier/ros2_ws/build/joystick_control_ras/prefix_override:/home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_control_ras build --build-base /home/olivier/ros2_ws/build/joystick_control_ras/build install --record /home/olivier/ros2_ws/build/joystick_control_ras/install.log --single-version-externally-managed install_data
+[1.990s] running egg_info
+[1.992s] writing ../../build/joystick_control_ras/joystick_control_ras.egg-info/PKG-INFO
+[1.992s] writing dependency_links to ../../build/joystick_control_ras/joystick_control_ras.egg-info/dependency_links.txt
+[1.992s] writing entry points to ../../build/joystick_control_ras/joystick_control_ras.egg-info/entry_points.txt
+[1.992s] writing requirements to ../../build/joystick_control_ras/joystick_control_ras.egg-info/requires.txt
+[1.992s] writing top-level names to ../../build/joystick_control_ras/joystick_control_ras.egg-info/top_level.txt
+[1.995s] reading manifest file '../../build/joystick_control_ras/joystick_control_ras.egg-info/SOURCES.txt'
+[1.997s] writing manifest file '../../build/joystick_control_ras/joystick_control_ras.egg-info/SOURCES.txt'
+[1.997s] running build
+[1.997s] running build_py
+[1.999s] running install
+[1.999s] running install_lib
+[2.001s] running install_data
+[2.002s] running install_egg_info
+[2.004s] removing '/home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras-0.0.0-py3.10.egg-info' (and everything under it)
+[2.005s] Copying ../../build/joystick_control_ras/joystick_control_ras.egg-info to /home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages/joystick_control_ras-0.0.0-py3.10.egg-info
+[2.006s] running install_scripts
+[2.053s] Installing joystickgui script to /home/olivier/ros2_ws/install/joystick_control_ras/lib/joystick_control_ras
+[2.053s] writing list of installed files to '/home/olivier/ros2_ws/build/joystick_control_ras/install.log'
+[2.241s] Invoked command in '/home/olivier/ros2_ws/src/ras_joystick_control-iron' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/joystick_control_ras/prefix_override:/home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_control_ras build --build-base /home/olivier/ros2_ws/build/joystick_control_ras/build install --record /home/olivier/ros2_ws/build/joystick_control_ras/install.log --single-version-externally-managed install_data

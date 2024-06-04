@@ -13,28 +13,26 @@ class TFProcessor(Node):
             self.tf_callback,
             10
         )
-        self.vessels = ["RAS_TN_DB", "RAS_TN_GR", "RAS_TN_OR"]
+        #self.vessels = ['RAS_TN_DB','RAS_TN_OR','RAS_TN_GR']
+        self.vessels = ['RAS_TN_DB','RAS_TN_GR','RAS_TN_LB','RAS_TN_YE']
+        self.myname = self.get_namespace()
+        self.myname = self.myname.replace('/','')
 
+        self.base_link_name = self.myname + '/base_link'
+    
         # Create publishers (one per vessel) with renamed attribute
-        self.pose_publishers = {}
-        for vessel in self.vessels:
-            topic_name = f"/{vessel}/pose"
-            self.pose_publishers[vessel] = self.create_publisher(TransformStamped, topic_name, 10)
+        self.pose_publisher = self.create_publisher(TransformStamped, "pose", 10)
 
     def tf_callback(self, msg):
         for transform in msg.transforms:
-            for vessel in self.vessels:
-                if vessel in transform.child_frame_id:
-                    pose_msg = TransformStamped()
-                    pose_msg.header = transform.header
-                    pose_msg.child_frame_id = transform.child_frame_id
-                    pose_msg.transform = transform.transform
+            if self.base_link_name in transform.child_frame_id:
+                pose_msg = TransformStamped()
+                pose_msg.header = transform.header
+                pose_msg.child_frame_id = transform.child_frame_id
+                pose_msg.transform = transform.transform
 
-                    # Publish using the renamed attribute
-                    self.pose_publishers[vessel].publish(pose_msg)
-
-                    # Optional logging
-                    self.get_logger().info(f"Published pose for {vessel} on {pose_msg.header.frame_id}")
+                # Publish using the renamed attribute
+                self.pose_publisher.publish(pose_msg)
 
 
 def main(args=None):

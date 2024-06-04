@@ -2,104 +2,198 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import TransformStamped
 from std_msgs.msg import Float32, Float32MultiArray
-import math
 import numpy as np
 
-
-class FormationControllerNode(Node):
+class SwarmControllerNode(Node):
 
     def __init__(self):
-        super().__init__('formation_controller')
+        super().__init__('swarm_controller')
 
         # Get the necessary parameters
         self.declare_parameters(
             namespace='',
             parameters=[
-                ('blue_boat_name', 'RAS_TN_DB'),
-                ('orange_boat_name', 'RAS_TN_OR'),
-                ('desired_distance', 2.0),  # Desired distance between boats
-                ('kp_heading', 0.5),  # Heading control proportional gain
-                ('kp_velocity', 0.2)  # Velocity control proportional gain
+                #('orange_boat', 'RAS_TN_OR'),
+                ('dark_blue_boat', 'RAS_TN_DB'),
+                ('green_boat', 'RAS_TN_GR'),
+                ('lightblue_boat', 'RAS_TN_LB'),
+                #('red_boat', 'RAS_TN_RE'),
+                ('yellow_boat', 'RAS_TN_YE'),
+                #('purple_boat', 'RAS_TN_PU'),
+                ('desired_distance', 3),
+                ('separation_distance', 2),
+                ('kp_heading', 0.005),
+                ('kp_velocity', 0.1),
+                ('matching_factor', 0.5),
+                ('avoid_factor', 0.3),
+                ('centering_factor', 0.005),
+                ('goal_factor', 0.01),  # New parameter for goal seeking
+                ('min_speed', 0.01),
+                ('max_speed', 0.3)  # Reduced max speed for better control
             ]
         )
 
+        # Boat identifiers
+        self.boats = [
+            #self.get_parameter('orange_boat').value,
+            self.get_parameter('dark_blue_boat').value,
+            self.get_parameter('green_boat').value,
+            self.get_parameter('lightblue_boat').value,
+            self.get_parameter('yellow_boat').value
+        ]
+        
+
         # Set up subscribers
-        self.blue_pose_sub = self.create_subscription(
-            TransformStamped,
-            f"/{self.get_parameter('blue_boat_name').value}/pose",
-            self.blue_pose_callback,
-            10
-        )
-        self.orange_pose_sub = self.create_subscription(
-            TransformStamped,
-            f"/{self.get_parameter('orange_boat_name').value}/pose",
-            self.orange_pose_callback,
-            10
-        )
+        self.pose_subscribers = {
+            boat: self.create_subscription(
+                TransformStamped,
+                f"/{boat}/pose",
+                lambda msg, boat=boat: self.pose_callback(msg, boat),
+                10
+            ) for boat in self.boats
+        }
+        self.heading_subscribers = {
+            boat: self.create_subscription(
+                Float32,
+                f"/{boat}/telemetry/heading",
+                lambda msg, boat=boat: self.heading_callback(msg, boat),
+                10
+            ) for boat in self.boats
+        }
+        self.velocity_subscribers = {
+            boat: self.create_subscription(
+                Float32MultiArray,
+                f"/{boat}/state/velocity",
+                lambda msg, boat=boat: self.velocity_callback(msg, boat),
+                10
+            ) for boat in self.boats
+        }
 
         # Set up publishers
-        self.heading_ref_pub = self.create_publisher(
-            Float32,
-            f"/{self.get_parameter('blue_boat_name').value}/reference/heading",
-            10
-        )
-        self.velocity_ref_pub = self.create_publisher(
-            Float32MultiArray,
-            f"/{self.get_parameter('blue_boat_name').value}/reference/velocity",
-            10
-        )
+        self.heading_publishers = {
+            boat: self.create_publisher(
+                Float32,
+                f"/{boat}/reference/heading",
+                10
+            ) for boat in self.boats
+        }
+        self.velocity_publishers = {
+            boat: self.create_publisher(
+                Float32MultiArray,
+                f"/{boat}/reference/velocity",
+                10
+            ) for boat in self.boats
+        }
 
-        # Initialize pose variables
-        self.blue_pose = None
-        self.orange_pose = None
+        # Initialize state variables
+        self.poses = {boat: None for boat in self.boats}
+        self.headings = {boat: None for boat in self.boats}
+        self.velocities = {boat: None for boat in self.boats}
 
-    def blue_pose_callback(self, msg):
-        self.blue_pose = msg.transform
+    def pose_callback(self, msg, boat):
+        self.poses[boat] = msg.transform
+        self.check_all_data_received()
 
-        # Only calculate references if both poses are available
-        if self.orange_pose is not None:
-            self.calculate_and_publish_references()
+    def heading_callback(self, msg, boat):
+        self.headings[boat] = msg.data
+        self.check_all_data_received()
 
-    def orange_pose_callback(self, msg):
-        self.orange_pose = msg.transform
+    def velocity_callback(self, msg, boat):
+        self.velocities[boat] = msg.data
+        self.check_all_data_received()
 
-        # Only calculate references if both poses are available
-        if self.blue_pose is not None:
+    def check_all_data_received(self):
+        if all(self.poses.values()) and all(self.headings.values()) and all(self.velocities.values()):
             self.calculate_and_publish_references()
 
     def calculate_and_publish_references(self):
-        # Calculate desired heading based on the difference between the poses
-        dx = self.orange_pose.translation.x - self.blue_pose.translation.x
-        dy = self.orange_pose.translation.y - self.blue_pose.translation.y
-        desired_heading = np.arctan2(dy, dx)
+        desired_distance = self.get_parameter('desired_distance').value
+        separation_distance = self.get_parameter('separation_distance').value
+        matching_factor = self.get_parameter('matching_factor').value
+        avoid_factor = self.get_parameter('avoid_factor').value
+        centering_factor = self.get_parameter('centering_factor').value
+        goal_factor = self.get_parameter('goal_factor').value  # Get the goal seeking factor
+        min_speed = self.get_parameter('min_speed').value
+        max_speed = self.get_parameter('max_speed').value
 
-        # Calculate distance error
-        distance_error = math.sqrt(dx**2 + dy**2) - self.get_parameter('desired_distance').value
+        positions = {boat: (pose.translation.x, pose.translation.y) for boat, pose in self.poses.items()}
+        velocities = {boat: np.array([vel[0], vel[1]]) for boat, vel in self.velocities.items()}
 
-        # Calculate velocity reference based on distance error
-        velocity_ref = self.get_parameter('kp_velocity').value * distance_error
+        for boat in self.boats:
+            position = positions[boat]
+            velocity = velocities[boat]
 
-        # Publish references
-        self.heading_ref_pub.publish(Float32(data=desired_heading))
-        self.velocity_ref_pub.publish(Float32MultiArray(data=[velocity_ref,0.0,0.0]))
+            # Initialize forces
+            separation_force = np.array([0.0, 0.0])
+            alignment_force = np.array([0.0, 0.0])
+            cohesion_force = np.array([0.0, 0.0])
+            goal_force = np.array([0.0, 0.0])  # Initialize the goal seeking force
+            neighbor_count = 0
+            close_neighbor_count = 0
 
-        # In blue_pose_callback and orange_pose_callback:
-        self.get_logger().info(f"Blue pose received: {self.blue_pose}")
-        self.get_logger().info(f"Orange pose received: {self.orange_pose}")
+            for other_boat in self.boats:
+                if other_boat != boat:
+                    other_position = positions[other_boat]
+                    other_velocity = velocities[other_boat]
+                    distance = np.linalg.norm(np.array(position) - np.array(other_position))
 
-# In calculate_and_publish_references:
-        self.get_logger().info(f"Desired heading: {desired_heading}, Velocity reference: {velocity_ref}")
+                    # Alignment
+                    alignment_force += other_velocity
+                    neighbor_count += 1
+
+                    # Cohesion
+                    cohesion_force += np.array(other_position)
+
+                    # Separation
+                    if distance < separation_distance:
+                        separation_force += (np.array(position) - np.array(other_position)) / (distance**2)
+                        close_neighbor_count += 1
+
+            if neighbor_count > 0:
+                alignment_force /= neighbor_count
+                alignment_force = (alignment_force - velocity) * matching_factor
+
+                cohesion_force /= neighbor_count
+                cohesion_force = (cohesion_force - np.array(position)) * centering_factor
+
+            if close_neighbor_count > 0:
+                separation_force = separation_force * avoid_factor
+            else:
+                separation_force = np.array([0.0, 0.0])  # No separation force if no neighbors are too close
+
+            # Goal seeking force towards (0,0)
+            goal_position = np.array([0.0, 0.0])
+            goal_force = (goal_position - np.array(position)) * goal_factor
+
+            # Calculate the desired velocity
+            desired_velocity = velocity + alignment_force + cohesion_force + separation_force + goal_force
+            desired_speed = np.linalg.norm(desired_velocity)
+            if desired_speed > 0:
+                desired_heading = np.arctan2(desired_velocity[1], desired_velocity[0])
+            else:
+                desired_heading = self.headings[boat]
+
+            # Constrain the speed
+            if desired_speed > max_speed:
+                desired_velocity = (desired_velocity / desired_speed) * max_speed
+                desired_speed = max_speed
+            elif desired_speed < min_speed:
+                desired_velocity = (desired_velocity / desired_speed) * min_speed
+                desired_speed = min_speed
+
+            # Publish references
+            self.heading_publishers[boat].publish(Float32(data=desired_heading))
+            self.velocity_publishers[boat].publish(Float32MultiArray(data=[desired_speed, 0.0, 0.0]))
+
+            # Logging
+            self.get_logger().info(f"{boat} - Desired heading: {desired_heading}, Velocity reference: {desired_speed}")
 
 def main(args=None):
     rclpy.init(args=args)
-
-    formation_controller = FormationControllerNode()
-
-    rclpy.spin(formation_controller)
-
-    formation_controller.destroy_node()
+    swarm_controller = SwarmControllerNode()
+    rclpy.spin(swarm_controller)
+    swarm_controller.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()

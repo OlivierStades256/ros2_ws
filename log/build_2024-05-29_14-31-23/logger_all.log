@@ -1,0 +1,556 @@
+[0.210s] DEBUG:colcon:Command line arguments: ['/home/olivier/.local/bin/colcon', 'build']
+[0.211s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x777b2a9d4250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x777b2ab97c40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x777b2ab97c40>>)
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.454s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/olivier/ros2_ws'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/TurtleBoat-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/TurtleBoat-ros2) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/TurtleBoat-ros2) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/TurtleBoat-ros2) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/TurtleBoat-ros2) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/TurtleBoat-ros2) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/TurtleBoat-ros2) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/TurtleBoat-ros2) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/TurtleBoat-ros2) by extension 'ros'
+[0.479s] DEBUG:colcon.colcon_core.package_identification:Package 'src/TurtleBoat-ros2' with type 'ros.ament_python' and name 'turtleboat'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/USV_formation_control_1-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/USV_formation_control_1-ros2) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/USV_formation_control_1-ros2) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/USV_formation_control_1-ros2) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/USV_formation_control_1-ros2) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/USV_formation_control_1-ros2) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/USV_formation_control_1-ros2) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/USV_formation_control_1-ros2) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/USV_formation_control_1-ros2) by extension 'ros'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/USV_formation_control_1-ros2' with type 'ros.ament_python' and name 'usv_formation_control_1'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extension 'ros'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extension 'ros'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extension 'python'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extensions ['python_setup_py']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/boat_controller/boat_controller) by extension 'python_setup_py'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_joystick_control-iron) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_joystick_control-iron) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_joystick_control-iron) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_joystick_control-iron) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_joystick_control-iron) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_joystick_control-iron) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_joystick_control-iron) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_joystick_control-iron) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_joystick_control-iron) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ras_joystick_control-iron' with type 'ros.ament_python' and name 'joystick_control_ras'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_ros_core_control_modules-main) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_ros_core_control_modules-main) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_ros_core_control_modules-main) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_ros_core_control_modules-main) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_ros_core_control_modules-main) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_ros_core_control_modules-main) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_ros_core_control_modules-main) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_ros_core_control_modules-main) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_ros_core_control_modules-main) by extension 'ros'
+[0.485s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ras_ros_core_control_modules-main' with type 'ros.ament_python' and name 'ras_ros_core_control_modules'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_urdf_common-main) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_urdf_common-main) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_urdf_common-main) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_urdf_common-main) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_urdf_common-main) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_urdf_common-main) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_urdf_common-main) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_urdf_common-main) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ras_urdf_common-main) by extension 'ros'
+[0.487s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ras_urdf_common-main' with type 'ros.ament_cmake' and name 'ras_urdf_common'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_controller_1) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_controller_1) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_controller_1) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_controller_1) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_controller_1) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_controller_1) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_controller_1) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_controller_1) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_controller_1) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/swarm_controller_1' with type 'ros.ament_python' and name 'boat_controller'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_callback) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_callback) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_callback) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_callback) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_callback) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_callback) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_callback) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_callback) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_callback) by extension 'ros'
+[0.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf_callback' with type 'ros.ament_python' and name 'tf_callback'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'ros'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['cmake', 'python']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'cmake'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'python'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'python'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['python_setup_py']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'python_setup_py'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extension 'python'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extensions ['python_setup_py']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(venv/include) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'ros'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['cmake', 'python']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extension 'ros'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extensions ['cmake', 'python']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extension 'cmake'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extension 'python'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extensions ['python_setup_py']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10) by extension 'python_setup_py'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extension 'ros'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extensions ['cmake', 'python']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extension 'cmake'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extension 'python'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extensions ['python_setup_py']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.10/site-packages) by extension 'python_setup_py'
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'boat_controller' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'boat_controller' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'boat_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'boat_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'boat_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'boat_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'boat_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'boat_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'boat_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.531s] DEBUG:colcon.colcon_core.verb:Building package 'boat_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olivier/ros2_ws/build/boat_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olivier/ros2_ws/install/boat_controller', 'merge_install': False, 'path': '/home/olivier/ros2_ws/src/swarm_controller_1', 'symlink_install': False, 'test_result_base': None}
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'joystick_control_ras' build argument 'cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'joystick_control_ras' build argument 'cmake_target' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'joystick_control_ras' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'joystick_control_ras' build argument 'cmake_clean_cache' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'joystick_control_ras' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'joystick_control_ras' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'joystick_control_ras' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'joystick_control_ras' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'joystick_control_ras' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_control_ras' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olivier/ros2_ws/build/joystick_control_ras', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olivier/ros2_ws/install/joystick_control_ras', 'merge_install': False, 'path': '/home/olivier/ros2_ws/src/ras_joystick_control-iron', 'symlink_install': False, 'test_result_base': None}
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'ras_ros_core_control_modules' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'ras_ros_core_control_modules' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'ras_ros_core_control_modules' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'ras_ros_core_control_modules' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'ras_ros_core_control_modules' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'ras_ros_core_control_modules' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'ras_ros_core_control_modules' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'ras_ros_core_control_modules' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ras_ros_core_control_modules' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'ras_ros_core_control_modules' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olivier/ros2_ws/build/ras_ros_core_control_modules', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olivier/ros2_ws/install/ras_ros_core_control_modules', 'merge_install': False, 'path': '/home/olivier/ros2_ws/src/ras_ros_core_control_modules-main', 'symlink_install': False, 'test_result_base': None}
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ras_urdf_common' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ras_urdf_common' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ras_urdf_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ras_urdf_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ras_urdf_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'ras_urdf_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ras_urdf_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ras_urdf_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ras_urdf_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.535s] DEBUG:colcon.colcon_core.verb:Building package 'ras_urdf_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olivier/ros2_ws/build/ras_urdf_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olivier/ros2_ws/install/ras_urdf_common', 'merge_install': False, 'path': '/home/olivier/ros2_ws/src/ras_urdf_common-main', 'symlink_install': False, 'test_result_base': None}
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'tf_callback' build argument 'cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'tf_callback' build argument 'cmake_target' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'tf_callback' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'tf_callback' build argument 'cmake_clean_cache' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'tf_callback' build argument 'cmake_clean_first' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'tf_callback' build argument 'cmake_force_configure' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'tf_callback' build argument 'ament_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'tf_callback' build argument 'catkin_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'tf_callback' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.536s] DEBUG:colcon.colcon_core.verb:Building package 'tf_callback' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olivier/ros2_ws/build/tf_callback', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olivier/ros2_ws/install/tf_callback', 'merge_install': False, 'path': '/home/olivier/ros2_ws/src/tf_callback', 'symlink_install': False, 'test_result_base': None}
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'turtleboat' build argument 'cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'turtleboat' build argument 'cmake_target' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'turtleboat' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'turtleboat' build argument 'cmake_clean_cache' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'turtleboat' build argument 'cmake_clean_first' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'turtleboat' build argument 'cmake_force_configure' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'turtleboat' build argument 'ament_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'turtleboat' build argument 'catkin_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'turtleboat' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.537s] DEBUG:colcon.colcon_core.verb:Building package 'turtleboat' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olivier/ros2_ws/build/turtleboat', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olivier/ros2_ws/install/turtleboat', 'merge_install': False, 'path': '/home/olivier/ros2_ws/src/TurtleBoat-ros2', 'symlink_install': False, 'test_result_base': None}
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'usv_formation_control_1' build argument 'cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'usv_formation_control_1' build argument 'cmake_target' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'usv_formation_control_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'usv_formation_control_1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'usv_formation_control_1' build argument 'cmake_clean_first' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'usv_formation_control_1' build argument 'cmake_force_configure' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'usv_formation_control_1' build argument 'ament_cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'usv_formation_control_1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'usv_formation_control_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.538s] DEBUG:colcon.colcon_core.verb:Building package 'usv_formation_control_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olivier/ros2_ws/build/usv_formation_control_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olivier/ros2_ws/install/usv_formation_control_1', 'merge_install': False, 'path': '/home/olivier/ros2_ws/src/USV_formation_control_1-ros2', 'symlink_install': False, 'test_result_base': None}
+[0.538s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.540s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/olivier/ros2_ws/src/swarm_controller_1' with build type 'ament_python'
+[0.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('boat_controller', 'ament_prefix_path')
+[0.544s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/boat_controller/share/boat_controller/hook/ament_prefix_path.ps1'
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/boat_controller/share/boat_controller/hook/ament_prefix_path.dsv'
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/boat_controller/share/boat_controller/hook/ament_prefix_path.sh'
+[0.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.553s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/olivier/ros2_ws/src/ras_joystick_control-iron' with build type 'ament_python'
+[0.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_control_ras', 'ament_prefix_path')
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/hook/ament_prefix_path.ps1'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/hook/ament_prefix_path.dsv'
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/hook/ament_prefix_path.sh'
+[0.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.569s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/olivier/ros2_ws/src/ras_ros_core_control_modules-main' with build type 'ament_python'
+[0.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_ros_core_control_modules', 'ament_prefix_path')
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules/hook/ament_prefix_path.ps1'
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules/hook/ament_prefix_path.dsv'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules/hook/ament_prefix_path.sh'
+[0.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/olivier/ros2_ws/src/ras_urdf_common-main' with build type 'ament_cmake'
+[0.588s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olivier/ros2_ws/src/ras_urdf_common-main'
+[0.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.012s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/olivier/ros2_ws/src/swarm_controller_1'
+[1.013s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.013s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.426s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/olivier/ros2_ws/src/ras_joystick_control-iron'
+[1.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.849s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/olivier/ros2_ws/src/ras_ros_core_control_modules-main'
+[1.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olivier/ros2_ws/build/ras_urdf_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/tf_callback:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/joystick_control_ras:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/tf_callback:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/joystick_control_ras:/home/olivier/install/boat_controller:/opt/ros/iron /usr/bin/cmake --build /home/olivier/ros2_ws/build/ras_urdf_common -- -j4 -l4
+[2.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olivier/ros2_ws/src/swarm_controller_1': PYTHONPATH=/home/olivier/ros2_ws/build/boat_controller/prefix_override:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/boat_controller build --build-base /home/olivier/ros2_ws/build/boat_controller/build install --record /home/olivier/ros2_ws/build/boat_controller/install.log --single-version-externally-managed install_data
+[2.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olivier/ros2_ws/src/ras_joystick_control-iron': PYTHONPATH=/home/olivier/ros2_ws/build/joystick_control_ras/prefix_override:/home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_control_ras build --build-base /home/olivier/ros2_ws/build/joystick_control_ras/build install --record /home/olivier/ros2_ws/build/joystick_control_ras/install.log --single-version-externally-managed install_data
+[3.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olivier/ros2_ws/src/ras_ros_core_control_modules-main': PYTHONPATH=/home/olivier/ros2_ws/build/ras_ros_core_control_modules/prefix_override:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ras_ros_core_control_modules build --build-base /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build install --record /home/olivier/ros2_ws/build/ras_ros_core_control_modules/install.log --single-version-externally-managed install_data
+[3.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olivier/ros2_ws/build/ras_urdf_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/tf_callback:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/joystick_control_ras:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/tf_callback:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/joystick_control_ras:/home/olivier/install/boat_controller:/opt/ros/iron /usr/bin/cmake --build /home/olivier/ros2_ws/build/ras_urdf_common -- -j4 -l4
+[3.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olivier/ros2_ws/build/ras_urdf_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/tf_callback:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/joystick_control_ras:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/tf_callback:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/joystick_control_ras:/home/olivier/install/boat_controller:/opt/ros/iron /usr/bin/cmake --install /home/olivier/ros2_ws/build/ras_urdf_common
+[3.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras_urdf_common)
+[3.792s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common' for CMake module files
+[3.793s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common' for CMake config files
+[3.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_urdf_common', 'cmake_prefix_path')
+[3.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/cmake_prefix_path.ps1'
+[3.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/cmake_prefix_path.dsv'
+[3.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olivier/ros2_ws/build/ras_urdf_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olivier/ros2_ws/install/usv_formation_control_1:/home/olivier/ros2_ws/install/turtleboat:/home/olivier/ros2_ws/install/tf_callback:/home/olivier/ros2_ws/install/ras_ros_core_control_modules:/home/olivier/ros2_ws/install/py_pubsub:/home/olivier/ros2_ws/install/joystick_control_ras:/home/olivier/ros2_ws/install/boat_controller:/home/olivier/install/usv_formation_control_1:/home/olivier/install/turtleboat:/home/olivier/install/tf_callback:/home/olivier/install/ras_ros_core_control_modules:/home/olivier/install/joystick_control_ras:/home/olivier/install/boat_controller:/opt/ros/iron /usr/bin/cmake --install /home/olivier/ros2_ws/build/ras_urdf_common
+[3.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/cmake_prefix_path.sh'
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common/lib'
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common/bin'
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common/lib/pkgconfig/ras_urdf_common.pc'
+[3.807s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages'
+[3.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_urdf_common', 'pythonpath')
+[3.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/pythonpath.ps1'
+[3.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/pythonpath.dsv'
+[3.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/pythonpath.sh'
+[3.815s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common/bin'
+[3.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.ps1'
+[3.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.dsv'
+[3.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.sh'
+[3.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.bash'
+[3.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.zsh'
+[3.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olivier/ros2_ws/install/ras_urdf_common/share/colcon-core/packages/ras_urdf_common)
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/joystick_control_ras' for CMake module files
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/joystick_control_ras' for CMake config files
+[3.907s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/joystick_control_ras/lib'
+[3.907s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/joystick_control_ras/bin'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/joystick_control_ras/lib/pkgconfig/joystick_control_ras.pc'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages'
+[3.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_control_ras', 'pythonpath')
+[3.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/hook/pythonpath.ps1'
+[3.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olivier/ros2_ws/src/ras_joystick_control-iron' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/joystick_control_ras/prefix_override:/home/olivier/ros2_ws/install/joystick_control_ras/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_control_ras build --build-base /home/olivier/ros2_ws/build/joystick_control_ras/build install --record /home/olivier/ros2_ws/build/joystick_control_ras/install.log --single-version-externally-managed install_data
+[3.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/hook/pythonpath.dsv'
+[3.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/hook/pythonpath.sh'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/joystick_control_ras/bin'
+[3.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick_control_ras)
+[3.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/package.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/package.dsv'
+[3.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/package.sh'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/package.bash'
+[3.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/joystick_control_ras/share/joystick_control_ras/package.zsh'
+[3.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olivier/ros2_ws/install/joystick_control_ras/share/colcon-core/packages/joystick_control_ras)
+[3.922s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/olivier/ros2_ws/src/tf_callback' with build type 'ament_python'
+[3.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_callback', 'ament_prefix_path')
+[3.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/tf_callback/share/tf_callback/hook/ament_prefix_path.ps1'
+[3.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/tf_callback/share/tf_callback/hook/ament_prefix_path.dsv'
+[3.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/tf_callback/share/tf_callback/hook/ament_prefix_path.sh'
+[3.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.386s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/olivier/ros2_ws/src/tf_callback'
+[4.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.386s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras_urdf_common)
+[4.397s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common' for CMake module files
+[4.399s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common' for CMake config files
+[4.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_urdf_common', 'cmake_prefix_path')
+[4.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/cmake_prefix_path.ps1'
+[4.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/cmake_prefix_path.dsv'
+[4.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/cmake_prefix_path.sh'
+[4.402s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common/lib'
+[4.403s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common/bin'
+[4.403s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common/lib/pkgconfig/ras_urdf_common.pc'
+[4.403s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common/lib/python3.10/site-packages'
+[4.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_urdf_common', 'pythonpath')
+[4.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/pythonpath.ps1'
+[4.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/pythonpath.dsv'
+[4.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/hook/pythonpath.sh'
+[4.405s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_urdf_common/bin'
+[4.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.ps1'
+[4.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.dsv'
+[4.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.sh'
+[4.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.bash'
+[4.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_urdf_common/share/ras_urdf_common/package.zsh'
+[4.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olivier/ros2_ws/install/ras_urdf_common/share/colcon-core/packages/ras_urdf_common)
+[4.410s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/olivier/ros2_ws/src/TurtleBoat-ros2' with build type 'ament_python'
+[4.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtleboat', 'ament_prefix_path')
+[4.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/turtleboat/share/turtleboat/hook/ament_prefix_path.ps1'
+[4.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/turtleboat/share/turtleboat/hook/ament_prefix_path.dsv'
+[4.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/turtleboat/share/turtleboat/hook/ament_prefix_path.sh'
+[4.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.419s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_ros_core_control_modules' for CMake module files
+[4.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olivier/ros2_ws/src/ras_ros_core_control_modules-main' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/ras_ros_core_control_modules/prefix_override:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ras_ros_core_control_modules build --build-base /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build install --record /home/olivier/ros2_ws/build/ras_ros_core_control_modules/install.log --single-version-externally-managed install_data
+[4.420s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_ros_core_control_modules' for CMake config files
+[4.421s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib'
+[4.421s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/bin'
+[4.421s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/pkgconfig/ras_ros_core_control_modules.pc'
+[4.421s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages'
+[4.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('ras_ros_core_control_modules', 'pythonpath')
+[4.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules/hook/pythonpath.ps1'
+[4.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules/hook/pythonpath.dsv'
+[4.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules/hook/pythonpath.sh'
+[4.424s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/bin'
+[4.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ras_ros_core_control_modules)
+[4.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules/package.ps1'
+[4.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules/package.dsv'
+[4.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules/package.sh'
+[4.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules/package.bash'
+[4.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/ras_ros_core_control_modules/package.zsh'
+[4.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olivier/ros2_ws/install/ras_ros_core_control_modules/share/colcon-core/packages/ras_ros_core_control_modules)
+[4.429s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/boat_controller' for CMake module files
+[4.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olivier/ros2_ws/src/swarm_controller_1' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/boat_controller/prefix_override:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/boat_controller build --build-base /home/olivier/ros2_ws/build/boat_controller/build install --record /home/olivier/ros2_ws/build/boat_controller/install.log --single-version-externally-managed install_data
+[4.431s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/boat_controller' for CMake config files
+[4.432s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/boat_controller/lib'
+[4.432s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/boat_controller/bin'
+[4.432s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/boat_controller/lib/pkgconfig/boat_controller.pc'
+[4.433s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages'
+[4.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('boat_controller', 'pythonpath')
+[4.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/boat_controller/share/boat_controller/hook/pythonpath.ps1'
+[4.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/boat_controller/share/boat_controller/hook/pythonpath.dsv'
+[4.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/boat_controller/share/boat_controller/hook/pythonpath.sh'
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/boat_controller/bin'
+[4.435s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(boat_controller)
+[4.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/boat_controller/share/boat_controller/package.ps1'
+[4.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olivier/ros2_ws/install/boat_controller/share/boat_controller/package.dsv'
+[4.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/boat_controller/share/boat_controller/package.sh'
+[4.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/boat_controller/share/boat_controller/package.bash'
+[4.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/boat_controller/share/boat_controller/package.zsh'
+[4.438s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olivier/ros2_ws/install/boat_controller/share/colcon-core/packages/boat_controller)
+[4.439s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/olivier/ros2_ws/src/USV_formation_control_1-ros2' with build type 'ament_python'
+[4.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_formation_control_1', 'ament_prefix_path')
+[4.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/usv_formation_control_1/share/usv_formation_control_1/hook/ament_prefix_path.ps1'
+[4.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/usv_formation_control_1/share/usv_formation_control_1/hook/ament_prefix_path.dsv'
+[4.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/usv_formation_control_1/share/usv_formation_control_1/hook/ament_prefix_path.sh'
+[4.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.004s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/olivier/ros2_ws/src/TurtleBoat-ros2'
+[5.005s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.005s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.419s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/olivier/ros2_ws/src/USV_formation_control_1-ros2'
+[5.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olivier/ros2_ws/src/tf_callback': PYTHONPATH=/home/olivier/ros2_ws/build/tf_callback/prefix_override:/home/olivier/ros2_ws/install/tf_callback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_callback build --build-base /home/olivier/ros2_ws/build/tf_callback/build install --record /home/olivier/ros2_ws/build/tf_callback/install.log --single-version-externally-managed install_data
+[6.134s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/tf_callback' for CMake module files
+[6.134s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/tf_callback' for CMake config files
+[6.135s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/tf_callback/lib'
+[6.135s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/tf_callback/bin'
+[6.135s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/tf_callback/lib/pkgconfig/tf_callback.pc'
+[6.136s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/tf_callback/lib/python3.10/site-packages'
+[6.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_callback', 'pythonpath')
+[6.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/tf_callback/share/tf_callback/hook/pythonpath.ps1'
+[6.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/tf_callback/share/tf_callback/hook/pythonpath.dsv'
+[6.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/tf_callback/share/tf_callback/hook/pythonpath.sh'
+[6.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olivier/ros2_ws/src/tf_callback' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/tf_callback/prefix_override:/home/olivier/ros2_ws/install/tf_callback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_callback build --build-base /home/olivier/ros2_ws/build/tf_callback/build install --record /home/olivier/ros2_ws/build/tf_callback/install.log --single-version-externally-managed install_data
+[6.142s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/tf_callback/bin'
+[6.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf_callback)
+[6.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/tf_callback/share/tf_callback/package.ps1'
+[6.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olivier/ros2_ws/install/tf_callback/share/tf_callback/package.dsv'
+[6.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/tf_callback/share/tf_callback/package.sh'
+[6.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/tf_callback/share/tf_callback/package.bash'
+[6.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/tf_callback/share/tf_callback/package.zsh'
+[6.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olivier/ros2_ws/install/tf_callback/share/colcon-core/packages/tf_callback)
+[6.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olivier/ros2_ws/src/TurtleBoat-ros2': PYTHONPATH=/home/olivier/ros2_ws/build/turtleboat/prefix_override:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtleboat build --build-base /home/olivier/ros2_ws/build/turtleboat/build install --record /home/olivier/ros2_ws/build/turtleboat/install.log --install-scripts $base/lib/turtleboat --single-version-externally-managed install_data
+[6.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olivier/ros2_ws/src/USV_formation_control_1-ros2': PYTHONPATH=/home/olivier/ros2_ws/build/usv_formation_control_1/prefix_override:/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/usv_formation_control_1 build --build-base /home/olivier/ros2_ws/build/usv_formation_control_1/build install --record /home/olivier/ros2_ws/build/usv_formation_control_1/install.log --single-version-externally-managed install_data
+[6.881s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/usv_formation_control_1' for CMake module files
+[6.882s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/usv_formation_control_1' for CMake config files
+[6.882s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/usv_formation_control_1/lib'
+[6.883s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/usv_formation_control_1/bin'
+[6.883s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/usv_formation_control_1/lib/pkgconfig/usv_formation_control_1.pc'
+[6.883s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages'
+[6.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_formation_control_1', 'pythonpath')
+[6.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/usv_formation_control_1/share/usv_formation_control_1/hook/pythonpath.ps1'
+[6.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/usv_formation_control_1/share/usv_formation_control_1/hook/pythonpath.dsv'
+[6.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/usv_formation_control_1/share/usv_formation_control_1/hook/pythonpath.sh'
+[6.885s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/usv_formation_control_1/bin'
+[6.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_formation_control_1)
+[6.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/usv_formation_control_1/share/usv_formation_control_1/package.ps1'
+[6.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olivier/ros2_ws/install/usv_formation_control_1/share/usv_formation_control_1/package.dsv'
+[6.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/usv_formation_control_1/share/usv_formation_control_1/package.sh'
+[6.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/usv_formation_control_1/share/usv_formation_control_1/package.bash'
+[6.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/usv_formation_control_1/share/usv_formation_control_1/package.zsh'
+[6.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olivier/ros2_ws/install/usv_formation_control_1/share/colcon-core/packages/usv_formation_control_1)
+[6.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olivier/ros2_ws/src/USV_formation_control_1-ros2' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/usv_formation_control_1/prefix_override:/home/olivier/ros2_ws/install/usv_formation_control_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/usv_formation_control_1 build --build-base /home/olivier/ros2_ws/build/usv_formation_control_1/build install --record /home/olivier/ros2_ws/build/usv_formation_control_1/install.log --single-version-externally-managed install_data
+[6.949s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/turtleboat' for CMake module files
+[6.950s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/turtleboat' for CMake config files
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/turtleboat/lib'
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/turtleboat/bin'
+[6.951s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/turtleboat/lib/pkgconfig/turtleboat.pc'
+[6.952s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages'
+[6.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtleboat', 'pythonpath')
+[6.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/turtleboat/share/turtleboat/hook/pythonpath.ps1'
+[6.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olivier/ros2_ws/src/TurtleBoat-ros2' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/turtleboat/prefix_override:/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtleboat build --build-base /home/olivier/ros2_ws/build/turtleboat/build install --record /home/olivier/ros2_ws/build/turtleboat/install.log --install-scripts $base/lib/turtleboat --single-version-externally-managed install_data
+[6.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olivier/ros2_ws/install/turtleboat/share/turtleboat/hook/pythonpath.dsv'
+[6.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olivier/ros2_ws/install/turtleboat/share/turtleboat/hook/pythonpath.sh'
+[6.954s] Level 1:colcon.colcon_core.environment:checking '/home/olivier/ros2_ws/install/turtleboat/bin'
+[6.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtleboat)
+[6.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/turtleboat/share/turtleboat/package.ps1'
+[6.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olivier/ros2_ws/install/turtleboat/share/turtleboat/package.dsv'
+[6.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/turtleboat/share/turtleboat/package.sh'
+[6.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/turtleboat/share/turtleboat/package.bash'
+[6.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/olivier/ros2_ws/install/turtleboat/share/turtleboat/package.zsh'
+[6.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olivier/ros2_ws/install/turtleboat/share/colcon-core/packages/turtleboat)
+[6.959s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.959s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.960s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.970s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.970s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.970s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.995s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.995s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olivier/ros2_ws/install/local_setup.ps1'
+[6.997s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olivier/ros2_ws/install/_local_setup_util_ps1.py'
+[6.999s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olivier/ros2_ws/install/setup.ps1'
+[7.001s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olivier/ros2_ws/install/local_setup.sh'
+[7.002s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olivier/ros2_ws/install/_local_setup_util_sh.py'
+[7.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olivier/ros2_ws/install/setup.sh'
+[7.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olivier/ros2_ws/install/local_setup.bash'
+[7.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olivier/ros2_ws/install/setup.bash'
+[7.008s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olivier/ros2_ws/install/local_setup.zsh'
+[7.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olivier/ros2_ws/install/setup.zsh'

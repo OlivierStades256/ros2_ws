@@ -5,7 +5,7 @@
 from launch_ros.actions import Node
 from launch import LaunchDescription
 
-def generate_launch_description(vesselids = ['RAS_TN_DB','RAS_TN_OR','RAS_TN_GR']):
+def generate_launch_description(vesselids = ['RAS_TN_DB','RAS_TN_OR','RAS_TN_GR','RAS_TN_RE','RAS_TN_YE']):
     ld = LaunchDescription()
 
     # Define the vesselids to be simulated

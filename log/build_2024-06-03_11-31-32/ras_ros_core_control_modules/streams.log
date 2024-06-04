@@ -1,0 +1,26 @@
+[1.425s] Invoking command in '/home/olivier/ros2_ws/src/ras_ros_core_control_modules-main': PYTHONPATH=/home/olivier/ros2_ws/build/ras_ros_core_control_modules/prefix_override:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ras_ros_core_control_modules build --build-base /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build install --record /home/olivier/ros2_ws/build/ras_ros_core_control_modules/install.log --single-version-externally-managed install_data
+[1.913s] running egg_info
+[1.915s] writing ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/PKG-INFO
+[1.915s] writing dependency_links to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/dependency_links.txt
+[1.916s] writing entry points to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/entry_points.txt
+[1.916s] writing requirements to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/requires.txt
+[1.916s] writing top-level names to ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/top_level.txt
+[1.920s] reading manifest file '../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/SOURCES.txt'
+[1.922s] writing manifest file '../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info/SOURCES.txt'
+[1.922s] running build
+[1.922s] running build_py
+[1.924s] running install
+[1.925s] running install_lib
+[1.928s] running install_data
+[1.928s] running install_egg_info
+[1.931s] removing '/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules-0.0.0-py3.10.egg-info' (and everything under it)
+[1.937s] Copying ../../build/ras_ros_core_control_modules/ras_ros_core_control_modules.egg-info to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages/ras_ros_core_control_modules-0.0.0-py3.10.egg-info
+[1.939s] running install_scripts
+[1.976s] Installing TN_control_effort_allocator_dp1 script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.977s] Installing TN_control_effort_allocator_nomoto script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.977s] Installing heading_controller script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.977s] Installing navsat_cartesian_transform script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.977s] Installing surge_vel_controller script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.977s] Installing vel_differentiator script to /home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/ras_ros_core_control_modules
+[1.979s] writing list of installed files to '/home/olivier/ros2_ws/build/ras_ros_core_control_modules/install.log'
+[2.086s] Invoked command in '/home/olivier/ros2_ws/src/ras_ros_core_control_modules-main' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/ras_ros_core_control_modules/prefix_override:/home/olivier/ros2_ws/install/ras_ros_core_control_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ras_ros_core_control_modules build --build-base /home/olivier/ros2_ws/build/ras_ros_core_control_modules/build install --record /home/olivier/ros2_ws/build/ras_ros_core_control_modules/install.log --single-version-externally-managed install_data

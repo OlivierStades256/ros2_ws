@@ -288,7 +288,7 @@ class VesselSimNode(Node):
 		self.timer_publish_heading = self.create_timer(1/self.get_parameter("rate_publish_heading").get_parameter_value().double_value, self.timer_callback_publish_heading)
 		self.timer_report_status = self.create_timer(self.get_parameter("period_report_status").get_parameter_value().double_value, self.print_status)
 		if self.get_parameter("stream_auxiliary_state").get_parameter_value().bool_value:
-			self.timer_publish_auxiliary = self.create_timer(1/self.get_parameter("rate_publish_auxiliary_state").get_parameter_value().double_value, self.timer_callback_publish_auxiliary)
+			self.timer_publish_auxiliary = self.f(1/self.get_parameter("rate_publish_auxiliary_state").get_parameter_value().double_value, self.timer_callback_publish_auxiliary)
 
 
 		# Make ros2 service reset pose and velocity from EmptySrv type

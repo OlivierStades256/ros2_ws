@@ -1,0 +1,21 @@
+[1.481s] Invoking command in '/home/olivier/ros2_ws/src/swarm_controller_1': PYTHONPATH=/home/olivier/ros2_ws/build/boat_controller/prefix_override:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/boat_controller build --build-base /home/olivier/ros2_ws/build/boat_controller/build install --record /home/olivier/ros2_ws/build/boat_controller/install.log --single-version-externally-managed install_data
+[1.908s] running egg_info
+[1.909s] writing ../../build/boat_controller/boat_controller.egg-info/PKG-INFO
+[1.910s] writing dependency_links to ../../build/boat_controller/boat_controller.egg-info/dependency_links.txt
+[1.910s] writing entry points to ../../build/boat_controller/boat_controller.egg-info/entry_points.txt
+[1.911s] writing requirements to ../../build/boat_controller/boat_controller.egg-info/requires.txt
+[1.911s] writing top-level names to ../../build/boat_controller/boat_controller.egg-info/top_level.txt
+[1.915s] reading manifest file '../../build/boat_controller/boat_controller.egg-info/SOURCES.txt'
+[1.917s] writing manifest file '../../build/boat_controller/boat_controller.egg-info/SOURCES.txt'
+[1.917s] running build
+[1.917s] running build_py
+[1.918s] running install
+[1.919s] running install_lib
+[1.921s] running install_data
+[1.922s] running install_egg_info
+[1.924s] removing '/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages/boat_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.925s] Copying ../../build/boat_controller/boat_controller.egg-info to /home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages/boat_controller-0.0.0-py3.10.egg-info
+[1.926s] running install_scripts
+[1.960s] Installing boat_controllermain script to /home/olivier/ros2_ws/install/boat_controller/lib/boat_controller
+[1.961s] writing list of installed files to '/home/olivier/ros2_ws/build/boat_controller/install.log'
+[2.147s] Invoked command in '/home/olivier/ros2_ws/src/swarm_controller_1' returned '0': PYTHONPATH=/home/olivier/ros2_ws/build/boat_controller/prefix_override:/home/olivier/ros2_ws/install/boat_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/boat_controller build --build-base /home/olivier/ros2_ws/build/boat_controller/build install --record /home/olivier/ros2_ws/build/boat_controller/install.log --single-version-externally-managed install_data

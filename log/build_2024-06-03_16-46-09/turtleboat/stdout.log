@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/turtleboat/turtleboat.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtleboat/turtleboat.egg-info/dependency_links.txt
+writing entry points to ../../build/turtleboat/turtleboat.egg-info/entry_points.txt
+writing requirements to ../../build/turtleboat/turtleboat.egg-info/requires.txt
+writing top-level names to ../../build/turtleboat/turtleboat.egg-info/top_level.txt
+reading manifest file '../../build/turtleboat/turtleboat.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtleboat/turtleboat.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtleboat/turtleboatmain.py -> /home/olivier/ros2_ws/build/turtleboat/build/lib/turtleboat
+running install
+running install_lib
+copying /home/olivier/ros2_ws/build/turtleboat/build/lib/turtleboat/turtleboatmain.py -> /home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages/turtleboat
+byte-compiling /home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages/turtleboat/turtleboatmain.py to turtleboatmain.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages/turtleboat-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/turtleboat/turtleboat.egg-info to /home/olivier/ros2_ws/install/turtleboat/lib/python3.10/site-packages/turtleboat-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtleboatmain script to /home/olivier/ros2_ws/install/turtleboat/lib/turtleboat
+writing list of installed files to '/home/olivier/ros2_ws/build/turtleboat/install.log'

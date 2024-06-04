@@ -27,7 +27,7 @@ from launch_ros.substitutions import FindPackageShare
 from launch.substitutions import Command
 from launch_ros.parameter_descriptions import ParameterValue
 
-def generate_launch_description(vesselids = ['RAS_TN_DB','RAS_TN_OR','RAS_TN_GR']):
+def generate_launch_description(vesselids = ['RAS_TN_DB','RAS_TN_GR','RAS_TN_LB','RAS_TN_YE']):
     ld = LaunchDescription()
 
     ras_urdf_common_path = FindPackageShare('ras_urdf_common')
